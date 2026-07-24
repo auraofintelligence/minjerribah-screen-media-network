@@ -63,14 +63,14 @@ export function FundingModel() {
         <div>
           <span>Editable planning total</span>
           <strong>{currency(total)}</strong>
-          <small>{selectedCount} of {fundingItems.length} layers selected</small>
+          <small>{selectedCount} of {fundingItems.length} ideas selected</small>
         </div>
         <p>
-          Change any allowance or switch a layer off. These are conversation
-          numbers: not quotes, promises, grant applications or construction
-          budgets.
+          Change any amount or switch an idea off. These are rough numbers for a
+          community conversation, not quotes, promises, grant applications or
+          building budgets.
         </p>
-        <button type="button" onClick={reset}>Reset planning model</button>
+        <button type="button" onClick={reset}>Reset example costs</button>
       </div>
 
       <div className="funding-table" role="group" aria-label="Editable funding estimates">

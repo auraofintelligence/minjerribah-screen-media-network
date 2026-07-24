@@ -4,7 +4,7 @@ import { NetworkPage } from "../../components/NetworkPage";
 export const metadata: Metadata = {
   title: "Media Network",
   description:
-    "A year-round local media, journalism, noticeboard and disaster-information relay proposal for Minjerribah.",
+    "An idea for year-round local media, journalism, digital community noticeboards and checked emergency updates on Minjerribah.",
 };
 
 export default function Page() {

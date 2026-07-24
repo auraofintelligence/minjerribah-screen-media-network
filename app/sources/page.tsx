@@ -4,7 +4,7 @@ import { SourcesPage } from "../../components/SourcesPage";
 export const metadata: Metadata = {
   title: "Receipts",
   description:
-    "Official links, active public prototypes, proposal boundaries and long-horizon questions behind the Minjerribah Screen and Media Network.",
+    "Official links, public planning pages and future questions behind the Minjerribah Screen and Media Network community pitch.",
 };
 
 export default function Page() {

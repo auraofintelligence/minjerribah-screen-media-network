@@ -97,7 +97,7 @@ export function SiteShell({
       </header>
 
       <div className="live-ticker" aria-label="Project status">
-        <strong>Live proposal</strong>
+        <strong>Community pitch</strong>
         <div className="ticker-window">
           <div className="ticker-track">
             <span>Make stories</span>
@@ -139,14 +139,14 @@ export function SiteShell({
 
       <footer className="site-footer">
         <div>
-          <p className="eyebrow">A public invitation, not a done deal</p>
-          <h2>Build boldly. Label honestly. Let participation create the structure.</h2>
+          <p className="eyebrow">A community pitch, not a done deal</p>
+          <h2>Have a look. Ask questions. Tell us what you reckon.</h2>
         </div>
         <div className="footer-notes">
           <p>
-            This independent prototype does not imply endorsement, partnership,
-            cultural authority, property control, emergency authority, funding or
-            approval from any person or organisation.
+            This independent website brings a set of ideas together for
+            discussion. It does not mean any person or organisation supports
+            them, and nothing here has been approved, funded or secured.
           </p>
           <p>
             © 2026 Luke Nathan Hayes / Strange But True / Aura of Intelligence.

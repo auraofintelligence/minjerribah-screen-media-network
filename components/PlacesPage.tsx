@@ -6,13 +6,13 @@ export function PlacesPage() {
     <SiteShell currentPath="/places">
       <section className="page-hero places-hero">
         <div className="page-hero-copy">
-          <StatusTag status="proposed">A staged Ballow Road precinct proposal</StatusTag>
+          <StatusTag status="proposed">Ballow Road ideas for discussion</StatusTag>
           <p className="eyebrow">Places to gather, learn, make and screen</p>
-          <h1>One street. Several horizons. No shortcuts.</h1>
+          <h1>Could Ballow Road become a bigger community meeting place?</h1>
           <p className="hero-lede">
-            Start with participation and visible pilots. Explore 9 Ballow Road as
-            a practical front desk, 10–12 as a sports-and-screen opportunity, and
-            keep every land, lease and approval question in daylight.
+            This pitch asks whether 9 Ballow Road could become a Ready S.E.T.
+            community base and whether 10–12 could host sport, outdoor screens
+            and gatherings. No property access, lease or approval is assumed.
           </p>
         </div>
         <div className="precinct-strip" aria-hidden="true">
@@ -34,13 +34,12 @@ export function PlacesPage() {
 
       <section className="section place-intro">
         <div className="truth-banner">
-          <strong>Important location boundary</strong>
+          <strong>Important: these places are separate</strong>
           <p>
-            The Quandamooka Festival and QUAMPI are governed by their own
-            organisers and cultural authority. This proposal does not claim them.
-            It asks how an adjacent Ballow Road network could complement existing
-            cultural activity and create room for a separate film-festival,
-            training and community-screen pathway.
+            The Quandamooka Festival and QUAMPI belong to their own organisers
+            and cultural leaders. This pitch does not claim any control or
+            support from them. It simply asks whether nearby spaces could add
+            room for a separate film festival, training, sport and public screens.
           </p>
         </div>
       </section>
@@ -48,13 +47,13 @@ export function PlacesPage() {
       <section className="section place-feature place-nine">
         <div className="place-number">09</div>
         <div className="place-copy">
-          <StatusTag status="proposed">Possible first base</StatusTag>
+          <StatusTag status="proposed">One possible home</StatusTag>
           <p className="eyebrow">9 Ballow Road</p>
-          <h2>A visible front desk for Ready S.E.T. participation.</h2>
+          <h2>Could 9 Ballow Road become a front door for Ready S.E.T.?</h2>
           <p className="feature-lede">
-            A practical hub for media and journalism training, AI literacy,
-            editing, small workshops, equipment coordination, project meetings,
-            local-business collaboration and cross-cultural work.
+            It might be a place for media training, everyday AI skills, editing,
+            small workshops, shared gear, project meetings and local businesses
+            working with the community.
           </p>
           <div className="use-grid">
             {[
@@ -64,23 +63,23 @@ export function PlacesPage() {
               "Editing + production",
               "Shared equipment register",
               "Business collaboration",
-              "Youth pathways",
+              "Opportunities for young people",
               "Community project room",
             ].map((item) => <span key={item}>{item}</span>)}
           </div>
         </div>
         <div className="place-condition">
-          <p className="eyebrow">Launch now means</p>
+          <p className="eyebrow">The honest first step</p>
           <ol>
-            <li>Open the invitation and interest register.</li>
-            <li>Form a temporary pilot circle.</li>
-            <li>Run activity in available, permitted spaces.</li>
-            <li>Assess a lease or premises only with real participants and advice.</li>
+            <li>Share this full pitch with the community.</li>
+            <li>Listen to questions, concerns and better ideas.</li>
+            <li>See who might want to help.</li>
+            <li>Only look at premises if real support begins to form.</li>
           </ol>
           <p>
-            Ready S.E.T. Co-op does not yet exist as a formed operating entity.
-            The structure should grow from participation, qualified advice and
-            the work people actually choose to do.
+            Ready S.E.T. Co-op has not been formed. So far, it is an idea on
+            planning pages. Any real organisation would need to be shaped with
+            the people who choose to take part and with proper advice.
           </p>
         </div>
       </section>
@@ -88,14 +87,14 @@ export function PlacesPage() {
       <section className="section place-feature place-twelve">
         <div className="place-number">10–12</div>
         <div className="place-copy">
-          <StatusTag status="proposed">Precinct opportunity</StatusTag>
+          <StatusTag status="proposed">Another idea to discuss</StatusTag>
           <p className="eyebrow">10–12 Ballow Road</p>
-          <h2>Test a Sandy Sports and Screen Hub beside existing cultural energy.</h2>
+          <h2>Could 10–12 Ballow Road host sand sport and outdoor screens?</h2>
           <p className="feature-lede">
-            A flexible outdoor layer for sand sport, cinema, markets, music,
-            broadcast practice, youth activity and community gathering, if land
-            status, community priorities, cultural leadership, planning and
-            operations align.
+            The idea is an outdoor place for sand sport, cinema, markets, music,
+            youth activities and community gatherings. It could only go further
+            if the land, community wishes, cultural leadership, planning rules
+            and practical details all lined up.
           </p>
           <div className="programme-reel">
             {[
@@ -103,7 +102,7 @@ export function PlacesPage() {
               ["SCREEN", "Outdoor cinema + festival overflow concepts"],
               ["LIVE", "Music, panels + local broadcasting"],
               ["MARKET", "Food, makers + visitor orientation"],
-              ["YOUTH", "Paid practice + visible pathways"],
+              ["YOUTH", "Possible paid practice + useful experience"],
             ].map(([title, text]) => (
               <article key={title}>
                 <span>{title}</span>
@@ -113,13 +112,11 @@ export function PlacesPage() {
           </div>
         </div>
         <div className="place-condition condition-light">
-          <p className="eyebrow">Complement, do not capture</p>
+          <p className="eyebrow">Add something useful, do not take over</p>
           <p>
-            Ballow Road already carries major Quandamooka cultural activity
-            through QUAMPI and the Quandamooka Festival. The 10–12 idea should
-            strengthen the wider precinct without implying control of the
-            Festival, QUAMPI, cultural programming or Traditional Owner
-            authority.
+            QUAMPI and the Quandamooka Festival already bring major Quandamooka
+            cultural activity to Ballow Road. This separate idea must never
+            suggest it controls them or speaks for Traditional Owners.
           </p>
           <a
             className="text-link"
@@ -127,7 +124,7 @@ export function PlacesPage() {
             target="_blank"
             rel="noreferrer"
           >
-            Explore the existing Sand &amp; Screen concept ↗
+            See the separate Sand &amp; Screen planning page ↗
           </a>
         </div>
       </section>
@@ -135,13 +132,12 @@ export function PlacesPage() {
       <section className="section precinct-flow-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">A precinct, not a takeover</p>
-            <h2>Let every place keep its own role and authority.</h2>
+            <p className="eyebrow">Neighbours, not a takeover</p>
+            <h2>Every place keeps its own role and makes its own decisions.</h2>
           </div>
           <p>
-            Connections are invitations and practical relationships. A line on
-            this diagram is not an endorsement, lease, partnership or planning
-            approval.
+            The lines below only show how the ideas might sit near each other.
+            They do not mean support, a lease, a partnership or planning approval.
           </p>
         </div>
         <div className="precinct-flow">
@@ -160,13 +156,13 @@ export function PlacesPage() {
           <article className="flow-place cultural">
             <span>EXISTING CULTURAL PLACE</span>
             <strong>QUAMPI</strong>
-            <p>Its own governance, authority and programme</p>
+            <p>Its own leaders, decisions and program</p>
           </article>
           <div className="flow-line"><span>PUBLIC MOVEMENT</span></div>
           <article className="flow-place official">
             <span>OFFICIAL PLANNING</span>
             <strong>Gumpi terminal</strong>
-            <p>Transport infrastructure with its own government process</p>
+            <p>A transport project run through its own government process</p>
           </article>
         </div>
       </section>
@@ -177,12 +173,12 @@ export function PlacesPage() {
           <span>Move slowly here</span>
         </div>
         <div className="horizon-copy">
-          <p className="eyebrow">The deeper transport layer</p>
+          <p className="eyebrow">A much bigger transport question</p>
           <h2>Could a future Gumpi park-and-ride tunnel reduce parking pressure and turn carefully tested spoil into useful material?</h2>
           <p>
-            This question can sit in the story-world as a future civic and
-            engineering exploration. It is not part of the current ferry-terminal
-            upgrade, not a route, not a budget and not an approval claim.
+            This is only a question for future community discussion and expert
+            study. It is not part of the ferry-terminal upgrade. There is no
+            route, budget, design or approval.
           </p>
         </div>
         <div className="tunnel-diagram" aria-label="Conceptual dependency diagram">
@@ -206,22 +202,22 @@ export function PlacesPage() {
             "Ecological and heritage review",
             "Transport evidence",
             "Funding + procurement",
-            "Safety + emergency design",
+            "Safety + emergency planning",
             "Transparent public alternatives",
           ].map((item) => <span key={item}>{item}</span>)}
         </div>
       </section>
 
       <section className="section closing-cta">
-        <p className="eyebrow">The practical next move</p>
-        <h2>Build the people network before building the precinct.</h2>
+        <p className="eyebrow">What comes first</p>
+        <h2>Talk with people before talking about building anything.</h2>
         <p>
-          A working group, a story night, a screen pilot and a public record can
-          happen before any property decision.
+          First, share the whole pitch and hear what the community thinks. A
+          property decision is much further down the track.
         </p>
         <div className="button-row">
-          <a className="button button-primary" href={sitePath("/join")}>Join a first pilot</a>
-          <a className="button button-ghost" href={sitePath("/sources")}>Check every boundary</a>
+          <a className="button button-primary" href={sitePath("/join")}>Tell us what you reckon</a>
+          <a className="button button-ghost" href={sitePath("/sources")}>Check the facts</a>
         </div>
       </section>
     </SiteShell>

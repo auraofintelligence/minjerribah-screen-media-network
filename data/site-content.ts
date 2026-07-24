@@ -4,15 +4,15 @@ export const navigation = [
   { href: "/", label: "Opening night", shortLabel: "Home" },
   { href: "/network", label: "Media network", shortLabel: "Network" },
   { href: "/places", label: "Ballow Road", shortLabel: "Places" },
-  { href: "/funding", label: "Fund the layers", shortLabel: "Funding" },
-  { href: "/join", label: "Join the build", shortLabel: "Join" },
-  { href: "/sources", label: "Receipts", shortLabel: "Sources" },
+  { href: "/funding", label: "Rough costs", shortLabel: "Funding" },
+  { href: "/join", label: "Have your say", shortLabel: "Join" },
+  { href: "/sources", label: "Sources and facts", shortLabel: "Sources" },
 ] as const;
 
 export const statusLabels: Record<ProjectStatus, string> = {
-  active: "Active public work",
-  proposed: "Proposal to shape",
-  horizon: "Long-term concept",
+  active: "Planning page is public",
+  proposed: "Idea for discussion",
+  horizon: "Future idea only",
   official: "Official source",
 };
 
@@ -35,12 +35,12 @@ export const systemPetals = [
   {
     number: "04",
     title: "Trust",
-    text: "Human review, consent, source trails, clear status and cultural authority.",
+    text: "People checking the facts, asking permission and being clear about who decides what.",
   },
   {
     number: "05",
     title: "Resilience",
-    text: "A useful everyday network that can repeat verified official updates in a crisis.",
+    text: "Everyday local information, with checked official updates during emergencies.",
   },
   {
     number: "06",
@@ -85,7 +85,7 @@ export const fundingItems = [
   },
   {
     id: "training",
-    label: "Media + journalism training pilots",
+    label: "Small media and journalism training trials",
     amount: 24000,
     stage: "Train",
     note: "Small beginner cohorts, mentors, venue hire and learning materials.",
@@ -99,10 +99,10 @@ export const fundingItems = [
   },
   {
     id: "noticeboards",
-    label: "Digital noticeboard pilot",
+    label: "Small digital noticeboard trial",
     amount: 22000,
     stage: "Distribute",
-    note: "A small screen cluster, players, mounts, remote updates and accessibility.",
+    note: "A few screens, the gear to run them, remote updates and easy-to-read information.",
   },
   {
     id: "led-cinema",
@@ -127,7 +127,7 @@ export const fundingItems = [
   },
   {
     id: "traineeships",
-    label: "Paid trainee pathway",
+    label: "Possible paid trainee program",
     amount: 72000,
     stage: "Employ",
     note: "A planning allowance for supervised paid practice, not a promised wage program.",
@@ -141,7 +141,7 @@ export const fundingItems = [
   },
   {
     id: "permanent",
-    label: "Permanent screen + media infrastructure",
+    label: "Permanent screens and media facilities",
     amount: 180000,
     stage: "Anchor",
     note: "Concept allowance only; site, engineering, approvals and fit-out are separate.",
@@ -164,28 +164,28 @@ export const sourceProjects: Array<{
   {
     title: "Quandamooka Film Festival toolkit",
     description:
-      "An existing public prototype for human-led story planning, screenings and beginner film builders. It is not an official festival authority.",
+      "A public planning website for stories, screenings and beginner filmmaking. It is an idea page, not an official festival body.",
     url: "https://auraofintelligence.github.io/quandamooka-film-festival/",
     status: "active",
   },
   {
     title: "Ready S.E.T. Co-op Trust Hub",
     description:
-      "The existing public proposal for a trust-and-training front desk, including the possible 9 Ballow Road base.",
+      "A public planning website for a community front desk and training space, possibly at 9 Ballow Road.",
     url: "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
     status: "active",
   },
   {
     title: "Ready S.E.T. Hyperlocal Media",
     description:
-      "A companion prototype for training people, documenting useful work and publishing local stories.",
+      "A planning website about teaching media skills, recording useful local work and sharing local stories.",
     url: "https://auraofintelligence.github.io/ready-set-co-op-hyperlocal-media/",
     status: "active",
   },
   {
     title: "Straddie Noticeboard Network",
     description:
-      "A public-source workflow for turning human-approved Markdown into public notices and screen-ready information.",
+      "A planning website showing how checked local notices could be prepared for public screens.",
     url: "https://auraofintelligence.github.io/straddie-noticeboard-network/",
     status: "active",
   },
@@ -199,28 +199,28 @@ export const sourceProjects: Array<{
   {
     title: "Ballow Road Sand & Screen Hub",
     description:
-      "The existing 10–12 Ballow Road public concept for sand sport, screen culture, markets and community gathering.",
+      "A public planning website for possible sand sport, outdoor screens, markets and community gatherings at 10–12 Ballow Road.",
     url: "https://auraofintelligence.github.io/ballow-road-sand-screen-hub/",
     status: "active",
   },
   {
     title: "Sandy Sports community-club builder",
     description:
-      "A public workbench for shaping a legitimate, community-led sand-sports club and operating pathway.",
+      "A planning website about how a community-run sand-sports club might work.",
     url: "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
     status: "active",
   },
   {
     title: "Dunwich (Gumpi) Ferry Terminal Open Data Lab",
     description:
-      "A community prototype that keeps official ferry-upgrade facts separate from simulations and local questions.",
+      "A public information website that separates official ferry-upgrade facts from local questions and computer-made scenarios.",
     url: "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/",
     status: "active",
   },
   {
     title: "Sandworm Subterranean Systems",
     description:
-      "A question-led long-horizon workbench for tunnels, transport, spoil reuse and community assets. It is not an engineering plan.",
+      "A future-ideas website about tunnels, transport, reusing excavated material and community facilities. It is not an engineering plan.",
     url: "https://auraofintelligence.github.io/sandworm-subterranean-systems/",
     status: "horizon",
   },

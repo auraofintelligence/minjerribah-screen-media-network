@@ -4,7 +4,7 @@ import "./globals.css";
 
 const title = "Minjerribah Screen & Media Network";
 const description =
-  "A bold, staged collaboration proposal for stories, skills, screens, trusted local information and shared community places on Minjerribah.";
+  "A community pitch bringing local stories, skills, public screens, useful information and possible shared places together in one clear picture.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();

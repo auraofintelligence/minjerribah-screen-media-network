@@ -10,7 +10,7 @@ const ordinaryCards = [
 ] as const;
 
 const emergencyCards = [
-  ["OFFICIAL UPDATE", "Republished from the named emergency authority"],
+  ["OFFICIAL UPDATE", "Repeated from the named official source"],
   ["UPDATED", "08:42 AEST · timestamps remain visible on every screen"],
   ["TRANSPORT", "Confirm ferry and road status with the official operator"],
   ["IF IN DANGER", "Use official emergency channels; this screen is a relay"],
@@ -59,8 +59,8 @@ export function EmergencyDemo() {
         </div>
         <div className="screen-footer">
           <span>Source shown on every item</span>
-          <span>Accessible visual + text layers</span>
-          <span>Not an emergency authority</span>
+          <span>Easy-to-read pictures + words</span>
+          <span>Not an emergency service</span>
         </div>
       </div>
     </div>

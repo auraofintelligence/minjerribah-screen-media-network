@@ -4,7 +4,7 @@ import { FundingPage } from "../../components/FundingPage";
 export const metadata: Metadata = {
   title: "Fund the Layers",
   description:
-    "An editable planning model for staged film, training, journalism, public-screen, mobile-cinema and year-round media capacity.",
+    "Rough example costs for film, training, local news, public screens, mobile cinema and year-round community media.",
 };
 
 export default function Page() {

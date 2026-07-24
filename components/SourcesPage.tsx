@@ -6,13 +6,13 @@ export function SourcesPage() {
     <SiteShell currentPath="/sources">
       <section className="page-hero sources-hero">
         <div className="page-hero-copy">
-          <StatusTag status="active">Source trail refreshed 24 July 2026</StatusTag>
-          <p className="eyebrow">The receipts room</p>
-          <h1>Keep official facts, public prototypes and future questions in separate reels.</h1>
+          <StatusTag status="active">Sources checked 24 July 2026</StatusTag>
+          <p className="eyebrow">Where the ideas and facts came from</p>
+          <h1>Planning pages are not the same as official facts or agreed plans.</h1>
           <p className="hero-lede">
-            This site connects a large existing project garden. It does not turn
-            those projects into endorsements or blur a bold proposal into an
-            approved plan.
+            This site joins several separate idea pages into one community pitch.
+            Publishing those pages does not mean anyone has backed the ideas or
+            that any part has been approved.
           </p>
         </div>
         <div className="receipt-stack" aria-hidden="true">
@@ -25,14 +25,14 @@ export function SourcesPage() {
 
       <section className="section source-key-section">
         <div className="section-heading">
-          <p className="eyebrow">Status is part of the design</p>
-          <h2>Read the colour before reading the claim.</h2>
+          <p className="eyebrow">What the labels mean</p>
+          <h2>Check whether you are reading an official fact or somebody&apos;s idea.</h2>
         </div>
         <div className="source-key">
           <article><StatusTag status="official">{statusLabels.official}</StatusTag><p>A government or organiser-controlled page for its own project or event.</p></article>
-          <article><StatusTag status="active">{statusLabels.active}</StatusTag><p>A real public prototype or toolkit that exists now; not proof of institutional backing.</p></article>
-          <article><StatusTag status="proposed">{statusLabels.proposed}</StatusTag><p>An invitation, planning estimate, possible place or next experiment.</p></article>
-          <article><StatusTag status="horizon">{statusLabels.horizon}</StatusTag><p>A question for future research, cultural leadership, evidence and professional review.</p></article>
+          <article><StatusTag status="active">{statusLabels.active}</StatusTag><p>An idea or planning document you can read online. It has not necessarily been pitched, backed or acted on.</p></article>
+          <article><StatusTag status="proposed">{statusLabels.proposed}</StatusTag><p>An idea, rough cost, possible place or small trial for people to discuss.</p></article>
+          <article><StatusTag status="horizon">{statusLabels.horizon}</StatusTag><p>A big future question needing community support, evidence, cultural leadership and expert advice.</p></article>
         </div>
       </section>
 
@@ -80,12 +80,12 @@ export function SourcesPage() {
       <section className="section source-projects-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">The project constellation</p>
-            <h2>Open the existing work behind each part of the pitch.</h2>
+            <p className="eyebrow">The separate planning pages</p>
+            <h2>See how each part of this joined-up pitch was worked out.</h2>
           </div>
           <p>
-            Companion prototypes remain separate so each can keep its own
-            boundaries, detail and update rhythm.
+            These are webpages and planning documents, not finished projects.
+            They are kept separate so people can check the detail behind each idea.
           </p>
         </div>
         <div className="source-list">
@@ -111,16 +111,16 @@ export function SourcesPage() {
 
       <section className="section boundaries-section">
         <div className="section-heading">
-          <p className="eyebrow">Non-negotiable public boundaries</p>
-          <h2>The imagination can stay enormous because the labels stay boringly clear.</h2>
+          <p className="eyebrow">What this website will not pretend</p>
+          <h2>Dream big, but be dead straight about what is real.</h2>
         </div>
         <div className="boundary-grid">
           {[
             ["No fake endorsements", "No person, Traditional Owner body, venue, business, funder, school, government or community organisation is shown as backing the proposal without explicit approval."],
-            ["No cultural shortcuts", "Names, stories, language, images, knowledge and programme authority stay with the people and processes entitled to hold them."],
-            ["No emergency impersonation", "Community screens can repeat verified official information; they do not become the authority."],
+            ["No cultural shortcuts", "Names, stories, language, images and cultural knowledge stay with the people who have the right to decide how they are used."],
+            ["No pretending to be emergency services", "Community screens could repeat checked official information, but they would never replace the official source."],
             ["No property claim", "A public listing, photo, idea or nearby event does not prove access, ownership, lease, planning fit or consent."],
-            ["No engineering theatre", "Maps and motion graphics are communication tools, not designs, routes, surveys, safety cases or cost plans."],
+            ["No pretending a drawing is a plan", "Maps and graphics help explain an idea. They are not engineering designs, routes, surveys, safety reports or real costs."],
             ["No pressure to join", "People can explore, question, correct, decline, stay private or support only one small part."],
           ].map(([title, text]) => (
             <article key={title}><h3>{title}</h3><p>{text}</p></article>
@@ -132,9 +132,9 @@ export function SourcesPage() {
         <span>LAST SOURCE REVIEW</span>
         <strong>24 JULY 2026 · BRISBANE / AEST</strong>
         <p>
-          The new super-site was assembled from the supplied hand-off, local
-          public-source repos and current official web checks. Corrections are
-          welcome; public claims should change when the evidence changes.
+          This joined-up community pitch was assembled from separate public
+          planning pages and current official sources. Corrections are welcome.
+          If the facts change, this website should change too.
         </p>
       </section>
     </SiteShell>

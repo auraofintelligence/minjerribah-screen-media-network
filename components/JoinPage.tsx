@@ -11,15 +11,15 @@ export function JoinPage() {
         <div className="page-hero-copy">
           <StatusTag status="proposed">Open invitation</StatusTag>
           <p className="eyebrow">Culture · business · art · sport · community · curiosity</p>
-          <h1>Bring one real piece. Help the network discover its shape.</h1>
+          <h1>Have a look at the full pitch and tell us what you reckon.</h1>
           <p className="hero-lede">
-            You do not need to agree with the whole vision. Offer the part you can
-            stand behind, name your boundary and choose whether your contribution
-            is public or private.
+            Nothing has been agreed yet. You might love one part, question
+            another or have a much better idea. You choose whether your comments
+            can be shared or should stay private.
           </p>
           <div className="button-row">
             <a className="button button-primary" href={joinIssueUrl} target="_blank" rel="noreferrer">
-              Open the collaboration form ↗
+              Share your thoughts ↗
             </a>
             <a className="button button-ghost" href="#who-is-on-board">
               See the public board
@@ -42,12 +42,12 @@ export function JoinPage() {
       <section className="section join-doors-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">Nine easy doors</p>
-            <h2>Where could your energy land first?</h2>
+            <p className="eyebrow">Nine ways into the conversation</p>
+            <h2>What part catches your interest?</h2>
           </div>
           <p>
-            These are conversation starters, not job offers or volunteer
-            commitments. Each real role needs a person, scope, care boundary and
+            These are just conversation starters. They are not jobs, volunteer
+            roles or promises. Any real work would need clear expectations and
             fair terms.
           </p>
         </div>
@@ -57,11 +57,11 @@ export function JoinPage() {
             ["SKILL", "Teach a beginner-friendly session or mentor a small project."],
             ["SCREEN", "Explore hosting a noticeboard, screening or public demo."],
             ["GEAR", "List equipment that may be available under agreed care rules."],
-            ["VENUE", "Offer a lawful, accessible space for one pilot activity."],
-            ["REVIEW", "Check sources, accessibility, safety, cultural boundaries or plain language."],
-            ["BUSINESS", "Propose a useful local service, sponsor outcome or trainee task."],
+            ["VENUE", "Talk about a possible safe and accessible place for a small trial."],
+            ["REVIEW", "Check facts, safety, cultural limits, plain language or whether everyone can take part."],
+            ["BUSINESS", "Suggest a useful local service, sponsorship idea or trainee task."],
             ["SPORT", "Help shape Sandy Sports, event coverage or community broadcasting."],
-            ["BUILD", "Work on technology, governance, budgets, logistics or documentation."],
+            ["BUILD", "Help with technology, rules, costs, organising or writing things down clearly."],
           ].map(([title, text], index) => (
             <article key={title}>
               <span>{String(index + 1).padStart(2, "0")}</span>
@@ -76,12 +76,12 @@ export function JoinPage() {
         <div className="section-heading split-heading">
           <div>
             <p className="eyebrow">Who is on board?</p>
-            <h2>The public board starts honestly small.</h2>
+            <h2>Right now, only the person making the pitch is on this board.</h2>
           </div>
           <p>
-            A listing appears only after the person or organisation approves its
-            name, role, status and exact wording. A conversation, tag, meeting or
-            public post is not assent.
+            Nobody else will be listed unless they clearly agree to their name,
+            role and exact wording. A chat, tag, meeting or public post does not
+            mean someone is on board.
           </p>
         </div>
         <div className="onboard-board">
@@ -89,26 +89,26 @@ export function JoinPage() {
             <span>PROJECT INITIATOR</span>
             <h3>Luke Nathan Hayes</h3>
             <p>
-              Strange But True / Aura of Intelligence, originating the public
-              prototype, linking the existing workbenches and inviting a
-              human-led collaboration.
+              Strange But True / Aura of Intelligence. Luke brought the separate
+              planning webpages together and is putting the joined-up idea to the
+              community for the first time.
             </p>
             <StatusTag status="active">Publicly named</StatusTag>
           </article>
           <article className="open-seat">
             <span>OPEN SEAT 01</span>
             <strong>Your name only with your yes</strong>
-            <p>Possible lane: culture, story or review.</p>
+            <p>Possible interest: culture, stories or checking the details.</p>
           </article>
           <article className="open-seat">
             <span>OPEN SEAT 02</span>
             <strong>Your organisation only with approved wording</strong>
-            <p>Possible lane: host, business, sport or training.</p>
+            <p>Possible interest: hosting, business, sport or training.</p>
           </article>
           <article className="open-seat">
             <span>OPEN SEAT 03</span>
             <strong>A partner status that says exactly what is real</strong>
-            <p>Interested · exploring · pilot host · contributor · funder.</p>
+            <p>Interested · asking questions · possible host · helper · funder.</p>
           </article>
         </div>
         <div className="consent-note">
@@ -116,22 +116,21 @@ export function JoinPage() {
           <p>
             Some help should stay private. Some conversations are early. Some
             people may contribute without wanting public credit. This board
-            records approved public acknowledgement, not the full relationship
-            map.
+            only records the names people have agreed can be shown.
           </p>
         </div>
       </section>
 
       <section className="section collaboration-steps">
         <div className="section-heading">
-          <p className="eyebrow">From spark to public credit</p>
-          <h2>A short consent loop.</h2>
+          <p className="eyebrow">From an idea to being named publicly</p>
+          <h2>Ask first, agree clearly and check again before publishing.</h2>
         </div>
         <div className="collaboration-track">
           {[
             ["1", "Offer", "Name the piece you can help with."],
-            ["2", "Clarify", "Agree the scope, limits, timing and care needs."],
-            ["3", "Try", "Run the smallest useful pilot."],
+            ["2", "Talk it through", "Agree what it means, what it does not mean and how long it might take."],
+            ["3", "Try", "Only run a small trial if everyone involved agrees."],
             ["4", "Review", "Check what happened and what should change."],
             ["5", "Acknowledge", "Approve any public name, role or quote before it appears."],
           ].map(([number, title, text]) => (
@@ -142,8 +141,8 @@ export function JoinPage() {
 
       <section className="section join-form-cta">
         <div>
-          <p className="eyebrow">Ready for one useful move?</p>
-          <h2>Open a collaboration note. Keep it simple.</h2>
+          <p className="eyebrow">Got a thought, question or offer?</p>
+          <h2>Send a simple note.</h2>
           <p>
             The public form asks what you can offer, what you need, what may be
             public and what must stay private. Do not place sensitive cultural,
@@ -151,16 +150,16 @@ export function JoinPage() {
           </p>
         </div>
         <a className="button button-dark" href={joinIssueUrl} target="_blank" rel="noreferrer">
-          Put your hand up on GitHub ↗
+          Share your thoughts on GitHub ↗
         </a>
       </section>
 
       <section className="section closing-cta">
-        <p className="eyebrow">Want context before contact?</p>
-        <h2>Follow the source trail and choose the project that matches your interest.</h2>
+        <p className="eyebrow">Want to look deeper first?</p>
+        <h2>See the separate planning pages and the official sources behind the pitch.</h2>
         <div className="button-row">
-          <a className="button button-primary" href={sitePath("/sources")}>Open the receipts</a>
-          <a className="button button-ghost" href={sitePath("/")}>Replay the invitation</a>
+          <a className="button button-primary" href={sitePath("/sources")}>Check the sources</a>
+          <a className="button button-ghost" href={sitePath("/")}>Back to the big picture</a>
         </div>
       </section>
     </SiteShell>

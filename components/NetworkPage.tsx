@@ -17,13 +17,13 @@ export function NetworkPage() {
     <SiteShell currentPath="/network">
       <section className="page-hero network-hero">
         <div className="page-hero-copy">
-          <StatusTag status="proposed">Year-round network proposal</StatusTag>
-          <p className="eyebrow">The distribution + resilience layer</p>
+          <StatusTag status="proposed">An idea for year-round local media</StatusTag>
+          <p className="eyebrow">Local stories + useful public information</p>
           <h1>Make stories. Check them. Move them where people are.</h1>
           <p className="hero-lede">
-            A community-contributed, professionally reviewed media loop for local
-            news, film, public information and skills, built for phones, public
-            screens and live events.
+            A possible way for local people to share stories, film, news and
+            useful information on phones, public screens and at local events,
+            with facts and permissions checked before anything goes out.
           </p>
         </div>
         <div className="news-wall" aria-hidden="true">
@@ -41,7 +41,7 @@ export function NetworkPage() {
       <section className="section workflow-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">The editorial current</p>
+            <p className="eyebrow">How a local story could be handled</p>
             <h2>Community tip → verify → edit → publish → broadcast → archive.</h2>
           </div>
           <p>
@@ -63,8 +63,8 @@ export function NetworkPage() {
 
       <section className="section coverage-section">
         <div className="section-heading">
-          <p className="eyebrow">A whole-island beat sheet</p>
-          <h2>What the newsroom could help people understand.</h2>
+          <p className="eyebrow">What people could cover</p>
+          <h2>Useful local information, from one end of the island to the other.</h2>
         </div>
         <div className="coverage-grid">
           {coverageBeats.map((beat, index) => (
@@ -75,9 +75,9 @@ export function NetworkPage() {
           ))}
         </div>
         <p className="section-note">
-          Cultural material, language, identity, youth media and community history
-          need their own authority, consent and review, not just ordinary newsroom
-          permission.
+          Cultural stories, language, identity, young people and community
+          history need permission from the right people. A media team cannot
+          make that call on its own.
         </p>
       </section>
 
@@ -88,8 +88,8 @@ export function NetworkPage() {
             <h2>A local newsroom can double as a training ground.</h2>
           </div>
           <p>
-            Young people, first-time contributors, community groups and local
-            businesses should be able to enter at the level they are ready for.
+            Young people, beginners, community groups and local businesses could
+            join in at a level that suits them.
           </p>
         </div>
         <div className="training-console">
@@ -125,13 +125,13 @@ export function NetworkPage() {
       <section className="section screens-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">Digital noticeboard network</p>
-            <h2>Island-wide priority. Location-specific usefulness.</h2>
+            <p className="eyebrow">Digital community noticeboards</p>
+            <h2>Island-wide news, plus notices that matter in each spot.</h2>
           </div>
           <p>
-            Each willing host can carry local notices while sharing verified
-            island-wide information. Every location remains a proposal until its
-            owner or operator says yes.
+            A willing shop, club or venue could show nearby notices as well as
+            checked island-wide information. No location is involved unless its
+            owner or operator agrees.
           </p>
         </div>
         <div className="network-map">
@@ -157,9 +157,10 @@ export function NetworkPage() {
             <h2>Useful every day. Ready to relay verified information when needed.</h2>
           </div>
           <p>
-            The kiosk concept does not replace Council, SES, police, fire, health,
-            transport operators or emergency broadcasters. It adds a resilient
-            local distribution layer with clear sources and timestamps.
+            These screens would never replace Council, SES, police, fire, health,
+            transport operators or emergency broadcasters. The idea is simply to
+            repeat checked official updates and clearly show where and when they
+            came from.
           </p>
         </div>
         <EmergencyDemo />
@@ -169,8 +170,8 @@ export function NetworkPage() {
             ["Offline fallback", "A simple high-contrast page can remain useful when the live feed cannot."],
             ["Backup power options", "Battery or other safe backup choices belong in each site assessment."],
             ["Remote + local updates", "Authorised central publishing with a documented local fallback."],
-            ["Visible timestamps", "Every item says when it was checked and which authority it came from."],
-            ["Accessible communication", "Plain language, strong contrast, captions, icons and multilingual layers where appropriate."],
+            ["Visible times and dates", "Every item says when it was checked and which official source it came from."],
+            ["Easy to understand", "Plain language, strong contrast, captions, icons and other languages where useful."],
           ].map(([title, text]) => (
             <article key={title}>
               <h3>{title}</h3>
@@ -181,14 +182,14 @@ export function NetworkPage() {
       </section>
 
       <section className="section closing-cta">
-        <p className="eyebrow">The fastest honest pilot</p>
-        <h2>One host. One training session. One reviewed local story. One public screen.</h2>
+        <p className="eyebrow">A small first trial, if people want one</p>
+        <h2>One willing host. One training session. One checked local story. One screen.</h2>
         <p>
-          That is enough to learn what the bigger network should become.
+          That would be enough to learn whether the bigger idea is useful.
         </p>
         <div className="button-row">
-          <a className="button button-primary" href={sitePath("/join")}>Offer a pilot piece</a>
-          <a className="button button-ghost" href={sitePath("/sources")}>Open the existing tools</a>
+          <a className="button button-primary" href={sitePath("/join")}>Say how you might help</a>
+          <a className="button button-ghost" href={sitePath("/sources")}>See the planning pages</a>
         </div>
       </section>
     </SiteShell>

@@ -9,8 +9,8 @@ export function HomePage() {
       <section className="hero home-hero">
         <div className="hero-copy">
           <div className="hero-status">
-            <StatusTag status="proposed">Open collaboration proposal</StatusTag>
-            <span>Built in public · ready to discuss now</span>
+            <StatusTag status="proposed">A community pitch</StatusTag>
+            <span>Ideas on a webpage · not pitched or agreed yet</span>
           </div>
           <p className="eyebrow">Minjerribah Screen &amp; Media Network</p>
           <h1>
@@ -18,9 +18,9 @@ export function HomePage() {
             Minjerribah.
           </h1>
           <p className="hero-lede">
-            A joyful, practical invitation to connect film, local news, training,
-            public screens, community places and disaster resilience, one useful
-            layer at a time.
+            A big local idea bringing film, news, training, public noticeboards,
+            useful community spaces and emergency information together in one
+            easy place.
           </p>
           <div className="button-row">
             <a className="button button-primary" href={sitePath("/join")}>
@@ -31,8 +31,8 @@ export function HomePage() {
             </a>
           </div>
           <p className="fine-print">
-            No organisation, venue, lease, funding stream or infrastructure
-            project is presented as confirmed unless its status says so.
+            Nothing on this website has been approved, funded or agreed to unless
+            we clearly say otherwise.
           </p>
         </div>
         <HeroSignal />
@@ -43,26 +43,26 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="status-ribbon" aria-label="What exists and what is proposed">
+      <section className="status-ribbon" aria-label="Where these ideas are up to">
         <article>
-          <StatusTag status="active">Already moving</StatusTag>
+          <StatusTag status="active">Written up so far</StatusTag>
           <p>
-            Public film, media, noticeboard, co-op, sand-sport and open-data
-            prototypes already exist.
+            The ideas have been explored in separate webpages and planning
+            documents. They have not been pitched to the community yet.
           </p>
         </article>
         <article>
-          <StatusTag status="proposed">Build next</StatusTag>
+          <StatusTag status="proposed">What happens next</StatusTag>
           <p>
-            Invite real participants, run small pilots, shape governance and test
-            shared places and screens.
+            Put the whole picture to the community, hear what people think and
+            find out whether anyone wants to help shape it.
           </p>
         </article>
         <article>
-          <StatusTag status="horizon">Keep conceptual</StatusTag>
+          <StatusTag status="horizon">Big future questions</StatusTag>
           <p>
-            Tunnels, park-and-ride and material reuse remain long-horizon
-            questions requiring serious authority and review.
+            Tunnels, park-and-ride and reusing excavated sand are ideas only.
+            They would need proper community support, expert work and approval.
           </p>
         </article>
       </section>
@@ -75,12 +75,11 @@ export function HomePage() {
           alt="Generated abstract cinematic artwork of connected screens, film frames, sound waves and glowing information signals"
         />
         <div className="cinema-art-copy">
-          <p className="eyebrow">The visual promise</p>
+          <p className="eyebrow">The big picture</p>
           <h2 id="cinema-art-title">Stories in. Skills up. Signals out.</h2>
           <p>
-            One vivid public layer can connect small acts of making, checking,
-            learning and sharing without pretending they all belong to one
-            authority.
+            One clear community website can show how local stories, skills,
+            useful information and shared screens might work together.
           </p>
         </div>
       </section>
@@ -88,13 +87,13 @@ export function HomePage() {
       <section className="section bloom-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">The system opens like a flower</p>
-            <h2>Start with one useful petal. Let participation reveal the shape.</h2>
+            <p className="eyebrow">One big idea, made of smaller ideas</p>
+            <h2>Start with the part that makes sense to you.</h2>
           </div>
           <p>
-            The “super-site” is not a mega-organisation. It is a clear front door
-            into existing public work and the next small experiments people can
-            choose to carry.
+            This website does not represent a new organisation. It brings the
+            separate planning pages together so the community can see the whole
+            pitch, talk about it and decide what is worth taking further.
           </p>
         </div>
         <div className="petal-stage">
@@ -145,8 +144,8 @@ export function HomePage() {
           <a className="portal-card" href={sitePath("/funding")}>
             <span className="card-number">03</span>
             <div>
-              <p className="eyebrow">Editable planning model</p>
-              <h3>Fund outcomes, not fog.</h3>
+              <p className="eyebrow">Rough example costs</p>
+              <h3>See what different amounts might pay for.</h3>
             </div>
             <strong>Move the sliders →</strong>
           </a>
@@ -161,8 +160,8 @@ export function HomePage() {
           <a className="portal-card" href={sitePath("/sources")}>
             <span className="card-number">05</span>
             <div>
-              <p className="eyebrow">Receipts + boundaries</p>
-              <h3>Follow the real projects behind the pitch.</h3>
+              <p className="eyebrow">Sources + straight answers</p>
+              <h3>See where each idea came from.</h3>
             </div>
             <strong>Check the source trail →</strong>
           </a>
@@ -172,38 +171,38 @@ export function HomePage() {
       <section className="section first-season-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">The first season</p>
-            <h2>Move immediately without pretending everything is ready.</h2>
+            <p className="eyebrow">If the community wants to explore it</p>
+            <h2>Start small, listen properly and be honest about every step.</h2>
           </div>
           <p>
-            “Launch now” can mean opening the invitation, forming a small working
-            circle and delivering visible pilots. Premises, entities, insurance,
-            cultural authority and public money stay separate decisions.
+            The first job is simply to share the full pitch and listen. Any trial
+            activity, organisation, premises, insurance, cultural permission or
+            public funding would be a later decision made with the right people.
           </p>
         </div>
         <div className="season-grid">
           <article>
-            <span>WEEKS 1–2</span>
-            <h3>Gather the crew</h3>
+            <span>FIRST</span>
+            <h3>Hear what people reckon</h3>
             <p>
-              Open the register, hear boundaries, confirm who wants public credit
-              and form a temporary pilot circle.
+              Share the joined-up idea, answer questions and hear support,
+              concerns, corrections and better suggestions.
             </p>
           </article>
           <article>
-            <span>WEEKS 3–6</span>
-            <h3>Make one useful thing</h3>
+            <span>ONLY IF PEOPLE WANT IT</span>
+            <h3>Choose one small trial</h3>
             <p>
-              Run one story workshop, publish one reviewed update and test one
-              noticeboard screen with a willing host.
+              Agree on one useful, low-risk thing to try with willing people and
+              a clear way to review how it went.
             </p>
           </article>
           <article>
-            <span>WEEKS 7–12</span>
-            <h3>Screen the proof</h3>
+            <span>THEN</span>
+            <h3>Show what happened</h3>
             <p>
-              Hold a small public screening or demo night, report what happened
-              and invite the next round on evidence.
+              Share the result honestly, including what worked, what did not and
+              whether the community wants another step.
             </p>
           </article>
         </div>
@@ -211,8 +210,8 @@ export function HomePage() {
           <p className="eyebrow">The main ask</p>
           <blockquote>
             Collaborate to build the Quandamooka Film Festival toolkit, a
-            year-round local media and journalism pathway, a digital noticeboard
-            and disaster-kiosk network, shared screen infrastructure, and places
+            year-round local media and journalism training, digital noticeboards
+            that could carry checked emergency updates, shared screens, and places
             where culture, business, sport and community can grow together.
           </blockquote>
           <a className="button button-dark" href={sitePath("/join")}>

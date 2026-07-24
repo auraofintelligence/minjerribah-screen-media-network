@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { JoinPage } from "../../components/JoinPage";
 
 export const metadata: Metadata = {
-  title: "Join the Build",
+  title: "Have Your Say",
   description:
-    "An open invitation for cultures, artists, businesses, clubs, learners, reviewers, hosts and practical dreamers to offer one real piece.",
+    "A place for local people, cultures, artists, businesses, clubs and community groups to question, improve or support the joined-up pitch.",
 };
 
 export default function Page() {

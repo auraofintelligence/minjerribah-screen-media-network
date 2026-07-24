@@ -7,13 +7,13 @@ export function FundingPage() {
     <SiteShell currentPath="/funding">
       <section className="page-hero funding-hero">
         <div className="page-hero-copy">
-          <StatusTag status="proposed">Editable planning estimates</StatusTag>
-          <p className="eyebrow">Fund the outcomes in stages</p>
-          <h1>Turn a big vision into visible, fundable layers.</h1>
+          <StatusTag status="proposed">Rough example costs only</StatusTag>
+          <p className="eyebrow">What might the ideas cost?</p>
+          <h1>Start small and show exactly where the money would go.</h1>
           <p className="hero-lede">
-            Start with programme, training and shared gear. Add screens, broadcast
-            capacity, resilient kiosks, paid pathways and permanent
-            infrastructure only when the evidence and partners are ready.
+            If the community wants to take anything further, it could start with
+            a small event, training and shared gear. Bigger screens, paid roles
+            and permanent facilities would come much later.
           </p>
         </div>
         <div className="funding-orbit" aria-hidden="true">
@@ -28,12 +28,12 @@ export function FundingPage() {
         <div className="section-heading split-heading">
           <div>
             <p className="eyebrow">Move the numbers</p>
-            <h2>What could each funding layer unlock?</h2>
+            <h2>What could different amounts of money pay for?</h2>
           </div>
           <p>
-            The model is deliberately editable. Real budgets need quotes, tax
-            treatment, insurance, freight, labour, power, engineering, venue,
-            accessibility, contingency and qualified review.
+            Move the numbers around to explore the idea. These are not quotes or
+            a real budget. Proper costs would need advice on tax, insurance,
+            freight, wages, power, engineering, venues, access and backup money.
           </p>
         </div>
         <FundingModel />
@@ -41,16 +41,16 @@ export function FundingPage() {
 
       <section className="section funding-stages-section">
         <div className="section-heading">
-          <p className="eyebrow">A staged campaign spine</p>
-          <h2>Every threshold should produce something people can see and assess.</h2>
+          <p className="eyebrow">If fundraising ever begins</p>
+          <h2>Every ask should clearly say what people would get for the money.</h2>
         </div>
         <div className="threshold-track">
           {[
             ["SEED", "$35K", "First programme + training"],
             ["PILOT", "$80K", "Stories + equipment + screens"],
             ["LAUNCH", "$175K", "Mobile cinema + public showcase"],
-            ["NETWORK", "$350K", "More locations + paid pathways"],
-            ["YEAR-ROUND", "$750K+", "Operations + permanent layers"],
+            ["NETWORK", "$350K", "More locations + possible paid roles"],
+            ["YEAR-ROUND", "$750K+", "Year-round work + permanent facilities"],
           ].map(([stage, amount, outcome]) => (
             <article key={stage}>
               <span>{stage}</span>
@@ -60,24 +60,24 @@ export function FundingPage() {
           ))}
         </div>
         <p className="section-note">
-          Thresholds are examples for planning the narrative of a future campaign.
-          They are not fundraising targets already adopted by a legal entity.
+          These figures are examples on a planning page. No organisation has
+          adopted them and nobody is asking for this money yet.
         </p>
       </section>
 
       <section className="section fundraising-principles">
         <div className="principles-copy">
           <p className="eyebrow">Joyful responsible abundance</p>
-          <h2>Money should make participation easier, evidence clearer and local capability stronger.</h2>
+          <h2>Money should help local people take part and leave something useful behind.</h2>
         </div>
         <div className="principles-grid">
           {[
             ["No ghost partners", "Name supporters only after they approve the exact public wording."],
-            ["No mystery bucket", "Attach every ask to a visible output, responsible person and review point."],
-            ["Pay practice when possible", "Design trainee and contributor pathways that recognise real work."],
-            ["Keep culture in authority", "Funding does not purchase cultural permission, identity or endorsement."],
+            ["No mystery bucket", "Say what every dollar is for, who is looking after it and when the community gets an update."],
+            ["Pay people when possible", "If people are doing real work, aim to pay them fairly."],
+            ["Money cannot buy permission", "Funding does not buy cultural permission, identity or support."],
             ["Share the receipts", "Publish plain-language updates on money received, spent, held and changed."],
-            ["Build reusable capacity", "Prefer gear, skills, systems and spaces that can serve more than one event."],
+            ["Buy things people can reuse", "Prefer gear, skills and spaces that can help more than one event."],
           ].map(([title, text]) => (
             <article key={title}>
               <h3>{title}</h3>
@@ -94,18 +94,18 @@ export function FundingPage() {
             <h2>Offer a screen, a skill, a shift, a venue, a review or a piece of gear.</h2>
           </div>
           <p>
-            A payment pathway should only open after the receiving entity,
-            purpose, terms, refund handling and public reporting are clear.
+            Do not take money until there is a proper organisation to receive it
+            and clear rules for its use, refunds and public reporting.
           </p>
         </div>
         <div className="support-grid">
           {[
-            ["HOST", "Pilot a public screen or workshop."],
+            ["HOST", "Discuss hosting a public screen or workshop."],
             ["TEACH", "Share a practical media, business or technical skill."],
             ["LEND", "Offer equipment with clear care and return rules."],
-            ["REVIEW", "Help verify public facts, risks or accessibility."],
-            ["SPONSOR", "Explore a defined, approved outcome with no implied cultural authority."],
-            ["BUILD", "Join the temporary working circle and shape the next step."],
+            ["REVIEW", "Help check facts, risks or whether everyone can take part."],
+            ["SPONSOR", "Discuss supporting one clearly agreed result."],
+            ["BUILD", "Help the community work out whether there should be a next step."],
           ].map(([title, text]) => (
             <article key={title}><span>{title}</span><p>{text}</p></article>
           ))}

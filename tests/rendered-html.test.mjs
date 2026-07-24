@@ -26,10 +26,10 @@ async function render(path = "/") {
 const routes = [
   ["/", "index.html", "Stories, skills, screens"],
   ["/network", "network/index.html", "Make stories. Check them."],
-  ["/places", "places/index.html", "One street. Several horizons."],
-  ["/funding", "funding/index.html", "Turn a big vision into visible"],
-  ["/join", "join/index.html", "Bring one real piece."],
-  ["/sources", "sources/index.html", "Keep official facts"],
+  ["/places", "places/index.html", "Could Ballow Road become"],
+  ["/funding", "funding/index.html", "Start small and show exactly"],
+  ["/join", "join/index.html", "tell us what you reckon"],
+  ["/sources", "sources/index.html", "Planning pages are not the same"],
 ];
 
 test("server-renders every public route with honest project language", async () => {
