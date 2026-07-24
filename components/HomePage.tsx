@@ -61,8 +61,11 @@ export function HomePage() {
         <article>
           <StatusTag status="horizon">Big future questions</StatusTag>
           <p>
-            Tunnels, park-and-ride and reusing excavated sand are ideas only.
-            They would need proper community support, expert work and approval.
+            The $41 million Gumpi ferry terminal upgrade brings the parking
+            problem into focus. Could a future park-and-ride tunnel connect with
+            Ballow Road near the vacant 10–12 plot, while suitable excavated sand
+            helps build useful community infrastructure?{" "}
+            <a href={sitePath("/places")}>See the bigger Ballow Road question.</a>
           </p>
         </article>
       </section>
