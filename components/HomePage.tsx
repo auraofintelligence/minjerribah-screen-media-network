@@ -313,10 +313,11 @@ export function HomePage() {
           <p className="eyebrow">The main ask</p>
           <blockquote>
             Help shape Ready S.E.T. Co-op, meaning Sustainable Employment &amp;
-            Training, alongside the Quandamooka Film Festival toolkit, a
-            year-round local media and journalism training, digital noticeboards
-            that could carry checked emergency updates, shared screens, and places
-            where culture, business, sport and community can grow together.
+            Training, alongside the Quandamooka Film Festival toolkit;
+            year-round local media and journalism, with practical training for
+            local people; digital noticeboards for everyday use that could also
+            carry checked emergency updates; shared screens; and places where
+            culture, business, sport and community can grow together.
           </blockquote>
           <a className="button button-dark" href={sitePath("/join")}>
             I can help with a piece
