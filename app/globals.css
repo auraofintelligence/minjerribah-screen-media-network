@@ -1679,7 +1679,7 @@ main {
 
 .precinct-building strong {
   font-family: var(--display);
-  font-size: clamp(1.25rem, 2.5vw, 2.5rem);
+  font-size: clamp(1.15rem, 1.8vw, 2.1rem);
   line-height: 0.92;
 }
 
@@ -1698,8 +1698,8 @@ main {
 }
 
 .building-quampi {
-  right: -6%;
-  width: 26%;
+  right: 3%;
+  width: 20%;
   height: 58%;
   border-color: var(--aqua);
 }
