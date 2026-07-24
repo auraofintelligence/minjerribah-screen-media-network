@@ -62,10 +62,11 @@ export function HomePage() {
           <StatusTag status="horizon">Big future questions</StatusTag>
           <p>
             The $41 million Gumpi ferry terminal upgrade brings the parking
-            problem into focus. Could a future tunnel connect the ferry terminal
-            with a park-and-ride on or near the vacant 10–12 Ballow Road plot,
-            while suitable excavated sand helps build useful community
-            infrastructure?{" "}
+            problem into focus. Could a future underground transport loop around
+            Gumpi connect both ferry terminals with several park-and-ride
+            locations? One possible parking lot is opposite the vacant 10–12
+            Ballow Road plot, with other parking points around the loop. Suitable
+            excavated sand could also help build useful community infrastructure.{" "}
             <a href={sitePath("/places")}>See the bigger Ballow Road question.</a>
           </p>
         </article>

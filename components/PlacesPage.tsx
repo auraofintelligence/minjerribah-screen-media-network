@@ -273,25 +273,26 @@ export function PlacesPage() {
         </div>
         <div className="horizon-copy">
           <p className="eyebrow">A much bigger transport question</p>
-          <h2>Could a future Gumpi park-and-ride tunnel reduce parking pressure and turn carefully tested spoil into useful material?</h2>
+          <h2>Could a future underground transport loop link both Gumpi ferry terminals, connect several park-and-ride sites and turn carefully tested spoil into useful material?</h2>
           <p>
-            This is only a question for future community discussion and expert
-            study. It is not part of the ferry-terminal upgrade. There is no
-            route, budget, design or approval.
+            This is a town-wide loop idea, not one tunnel running to one car
+            park. One possible parking lot is opposite 10–12 Ballow Road, with
+            other park-and-ride locations around the loop. The route, stops,
+            design, funding and approvals are open questions.
           </p>
         </div>
         <div className="tunnel-diagram" aria-label="Plain-language summary of the future tunnel question">
           <article>
             <span>1 · THE PROBLEM</span>
-            <strong>Ferry traffic and parking put pressure on Gumpi.</strong>
+            <strong>Traffic from both ferry terminals puts parking pressure across Gumpi.</strong>
           </article>
           <article>
             <span>2 · THE IDEA TO TEST</span>
-            <strong>Could people park away from the terminal and travel through a tunnel?</strong>
+            <strong>Could an underground loop connect both terminals and move people around town?</strong>
           </article>
           <article>
-            <span>3 · BEFORE ANYTHING HAPPENS</span>
-            <strong>Protect Country, test the material and prove a real community benefit.</strong>
+            <span>3 · PARK-AND-RIDE NETWORK</span>
+            <strong>One possible parking lot opposite 10–12 Ballow Road, with others around the loop.</strong>
           </article>
         </div>
         <div className="dependency-grid">
