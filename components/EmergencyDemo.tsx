@@ -13,7 +13,7 @@ const emergencyCards = [
   ["OFFICIAL UPDATE", "Republished from the named emergency authority"],
   ["UPDATED", "08:42 AEST · timestamps remain visible on every screen"],
   ["TRANSPORT", "Confirm ferry and road status with the official operator"],
-  ["IF IN DANGER", "Use official emergency channels — this screen is a relay"],
+  ["IF IN DANGER", "Use official emergency channels; this screen is a relay"],
 ] as const;
 
 export function EmergencyDemo() {

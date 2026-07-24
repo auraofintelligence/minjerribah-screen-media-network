@@ -19,7 +19,7 @@ export function HomePage() {
           </h1>
           <p className="hero-lede">
             A joyful, practical invitation to connect film, local news, training,
-            public screens, community places and disaster resilience—one useful
+            public screens, community places and disaster resilience, one useful
             layer at a time.
           </p>
           <div className="button-row">

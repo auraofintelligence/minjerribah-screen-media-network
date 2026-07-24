@@ -89,7 +89,7 @@ export function JoinPage() {
             <span>PROJECT INITIATOR</span>
             <h3>Luke Nathan Hayes</h3>
             <p>
-              Strange But True / Aura of Intelligence—originating the public
+              Strange But True / Aura of Intelligence, originating the public
               prototype, linking the existing workbenches and inviting a
               human-led collaboration.
             </p>
@@ -116,7 +116,7 @@ export function JoinPage() {
           <p>
             Some help should stay private. Some conversations are early. Some
             people may contribute without wanting public credit. This board
-            records approved public acknowledgement—not the full relationship
+            records approved public acknowledgement, not the full relationship
             map.
           </p>
         </div>

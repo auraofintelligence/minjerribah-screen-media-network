@@ -93,7 +93,7 @@ export function PlacesPage() {
           <h2>Test a Sandy Sports and Screen Hub beside existing cultural energy.</h2>
           <p className="feature-lede">
             A flexible outdoor layer for sand sport, cinema, markets, music,
-            broadcast practice, youth activity and community gathering—if land
+            broadcast practice, youth activity and community gathering, if land
             status, community priorities, cultural leadership, planning and
             operations align.
           </p>

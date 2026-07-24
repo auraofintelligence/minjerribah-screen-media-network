@@ -68,7 +68,7 @@ export const noticeboardLocations = [
   "Community clubs",
   "Cultural venues",
   "Local shops",
-  "Transport areas — where permitted",
+  "Transport areas, where permitted",
   "Sports venues",
   "Libraries + community facilities",
   "Accommodation + visitor locations",

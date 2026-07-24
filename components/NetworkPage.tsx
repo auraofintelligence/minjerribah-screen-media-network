@@ -22,7 +22,7 @@ export function NetworkPage() {
           <h1>Make stories. Check them. Move them where people are.</h1>
           <p className="hero-lede">
             A community-contributed, professionally reviewed media loop for local
-            news, film, public information and skills—built for phones, public
+            news, film, public information and skills, built for phones, public
             screens and live events.
           </p>
         </div>
@@ -76,7 +76,7 @@ export function NetworkPage() {
         </div>
         <p className="section-note">
           Cultural material, language, identity, youth media and community history
-          need their own authority, consent and review—not just ordinary newsroom
+          need their own authority, consent and review, not just ordinary newsroom
           permission.
         </p>
       </section>

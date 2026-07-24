@@ -67,7 +67,7 @@ export function FundingModel() {
         </div>
         <p>
           Change any allowance or switch a layer off. These are conversation
-          numbers—not quotes, promises, grant applications or construction
+          numbers: not quotes, promises, grant applications or construction
           budgets.
         </p>
         <button type="button" onClick={reset}>Reset planning model</button>
