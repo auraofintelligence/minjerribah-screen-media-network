@@ -314,16 +314,21 @@ export function HomePage() {
         <div className="big-ask">
           <p className="eyebrow">The main ask</p>
           <blockquote>
-            Help shape Ready S.E.T. Co-op, meaning Sustainable Employment &amp;
-            Training, alongside the Quandamooka Film Festival toolkit;
-            year-round local media and journalism, with practical training for
-            local people; digital noticeboards for everyday use that could also
-            carry checked emergency updates; shared screens; and places where
-            culture, business, sport and community can grow together.
+            Have your say, choose the part you care about and help decide what
+            the community should try first.
           </blockquote>
-          <a className="button button-dark" href={sitePath("/join")}>
-            I can help with a piece
-          </a>
+          <div className="big-ask-action">
+            <p>
+              The wider idea brings together a proposed Ready S.E.T. Co-op at
+              9 Ballow Road, local jobs and training, Film Club, the Quandamooka
+              Film Festival toolkit, community news, everyday noticeboards,
+              shared screens, sport and events. Start with the bit that matters
+              to you.
+            </p>
+            <a className="button button-dark" href={sitePath("/join")}>
+              Tell us what you reckon
+            </a>
+          </div>
         </div>
       </section>
     </SiteShell>

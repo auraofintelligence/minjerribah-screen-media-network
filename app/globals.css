@@ -1143,6 +1143,16 @@ main {
   line-height: 1.45;
 }
 
+.big-ask-action {
+  max-width: 420px;
+}
+
+.big-ask-action p {
+  margin: 0 0 1.2rem;
+  color: #c8c4bb;
+  font-size: 1rem;
+}
+
 .page-hero {
   grid-template-columns: minmax(0, 1.08fr) minmax(380px, 0.92fr);
   min-height: 650px;
