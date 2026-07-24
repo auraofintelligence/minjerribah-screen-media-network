@@ -1,4 +1,5 @@
 import { sitePath } from "../lib/site-paths";
+import { FundingBubbleGame } from "./FundingBubbleGame";
 import { FundingModel } from "./FundingModel";
 import { SiteShell, StatusTag } from "./SiteShell";
 
@@ -7,7 +8,7 @@ export function FundingPage() {
     <SiteShell currentPath="/funding">
       <section className="page-hero funding-hero">
         <div className="page-hero-copy">
-          <StatusTag status="proposed">Rough example costs only</StatusTag>
+          <StatusTag status="proposed">Unverified placeholder figures</StatusTag>
           <p className="eyebrow">What might the ideas cost?</p>
           <h1>Start small and show exactly where the money would go.</h1>
           <p className="hero-lede">
@@ -16,24 +17,37 @@ export function FundingPage() {
             and permanent facilities would come much later.
           </p>
         </div>
-        <div className="funding-orbit" aria-hidden="true">
-          <div className="funding-disc disc-one"><span>MAKE</span></div>
-          <div className="funding-disc disc-two"><span>SCREEN</span></div>
-          <div className="funding-disc disc-three"><span>SUSTAIN</span></div>
-          <strong>$?</strong>
-        </div>
+        <FundingBubbleGame />
       </section>
 
       <section className="section model-section">
+        <div className="funding-honesty">
+          <p className="eyebrow">Straight answer about these numbers</p>
+          <h2>They were AI guesses, not a budget.</h2>
+          <p>
+            The first mock-up used round numbers to make the calculator work.
+            There were no supplier quotes, quantities, unit prices or written
+            calculations behind them. They are not Luke&apos;s internal estimates.
+          </p>
+          <div className="proper-working">
+            <strong>Proper working should show:</strong>
+            <span>quantity × unit price</span>
+            <span>freight and installation</span>
+            <span>wages and on-costs</span>
+            <span>insurance, access and approvals</span>
+            <span>maintenance and contingency</span>
+            <span>source and date for every price</span>
+          </div>
+        </div>
         <div className="section-heading split-heading">
           <div>
             <p className="eyebrow">Move the numbers</p>
             <h2>What could different amounts of money pay for?</h2>
           </div>
           <p>
-            Move the numbers around to explore the idea. These are not quotes or
-            a real budget. Proper costs would need advice on tax, insurance,
-            freight, wages, power, engineering, venues, access and backup money.
+            Open “Show how this figure was imagined” under any item. It explains
+            the broad bucket behind the guess and, importantly, what was never
+            calculated.
           </p>
         </div>
         <FundingModel />
@@ -46,22 +60,22 @@ export function FundingPage() {
         </div>
         <div className="threshold-track">
           {[
-            ["SEED", "$35K", "First programme + training"],
-            ["PILOT", "$80K", "Stories + equipment + screens"],
-            ["LAUNCH", "$175K", "Mobile cinema + public showcase"],
-            ["NETWORK", "$350K", "More locations + possible paid roles"],
-            ["YEAR-ROUND", "$750K+", "Year-round work + permanent facilities"],
-          ].map(([stage, amount, outcome]) => (
+            ["LISTEN", "Ask what people actually want"],
+            ["PRICE IT", "Get quantities, quotes and proper wage costs"],
+            ["TRY ONE", "Run one useful, clearly costed pilot"],
+            ["REPORT", "Show the results and every dollar spent"],
+            ["GROW", "Only grow what the community finds useful"],
+          ].map(([stage, outcome]) => (
             <article key={stage}>
               <span>{stage}</span>
-              <strong>{amount}</strong>
+              <strong>{String(["LISTEN", "PRICE IT", "TRY ONE", "REPORT", "GROW"].indexOf(stage) + 1).padStart(2, "0")}</strong>
               <p>{outcome}</p>
             </article>
           ))}
         </div>
         <p className="section-note">
-          These figures are examples on a planning page. No organisation has
-          adopted them and nobody is asking for this money yet.
+          No organisation has adopted a budget and nobody is asking for this
+          money yet.
         </p>
       </section>
 

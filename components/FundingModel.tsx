@@ -61,16 +61,16 @@ export function FundingModel() {
     <div className="funding-model">
       <div className="funding-summary">
         <div>
-          <span>Editable planning total</span>
+          <span>Unverified placeholder total</span>
           <strong>{currency(total)}</strong>
-          <small>{selectedCount} of {fundingItems.length} ideas selected</small>
+          <small>{selectedCount} of {fundingItems.length} placeholders selected</small>
         </div>
         <p>
-          Change any amount or switch an idea off. These are rough numbers for a
-          community conversation, not quotes, promises, grant applications or
-          building budgets.
+          These figures were generated for the first website mock-up. They did
+          not come from Luke&apos;s estimates, supplier quotes or a proper
+          calculation. Change them or switch them off while a real budget is built.
         </p>
-        <button type="button" onClick={reset}>Reset example costs</button>
+        <button type="button" onClick={reset}>Reset placeholders</button>
       </div>
 
       <div className="funding-table" role="group" aria-label="Editable funding estimates">
@@ -93,6 +93,10 @@ export function FundingModel() {
                   <h3>{item.label}</h3>
                 </div>
                 <p>{item.note}</p>
+                <details className="funding-working">
+                  <summary>Show how this figure was imagined</summary>
+                  <p>{item.basis}</p>
+                </details>
                 <div className="funding-bar" aria-hidden="true">
                   <span style={{ width: `${width}%` }} />
                 </div>
@@ -106,7 +110,7 @@ export function FundingModel() {
                   value={state.amount}
                   disabled={!state.enabled}
                   onChange={(event) => updateAmount(item.id, Number(event.target.value))}
-                  aria-label={`${item.label} estimate in Australian dollars`}
+                  aria-label={`${item.label} unverified placeholder in Australian dollars`}
                 />
               </label>
             </article>

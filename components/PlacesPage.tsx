@@ -90,17 +90,19 @@ export function PlacesPage() {
         <div className="place-copy">
           <StatusTag status="proposed">Another idea to discuss</StatusTag>
           <p className="eyebrow">10–12 Ballow Road</p>
-          <h2>Could 10–12 Ballow Road host sand sport and outdoor screens?</h2>
+          <h2>Could 10–12 Ballow Road become a permanent home for festivals, sand sport and outdoor screens?</h2>
           <p className="feature-lede">
-            The idea is an outdoor place for sand sport, cinema, markets, music,
-            youth activities and community gatherings. It could only go further
-            if the land, community wishes, cultural leadership, planning rules
-            and practical details all lined up.
+            The idea is a lasting outdoor festival and community place for sand
+            sport, cinema, markets, music, youth activities and gatherings. It
+            could only go further if the land, community wishes, cultural
+            leadership, festival organisers, planning rules and practical details
+            all lined up.
           </p>
           <div className="programme-reel">
             {[
               ["SAND", "Multi-use courts + playful events"],
-              ["SCREEN", "Outdoor cinema + festival overflow concepts"],
+              ["FESTIVALS", "A permanent home for major community gatherings"],
+              ["SCREEN", "Outdoor cinema + the Quandamooka Film Festival"],
               ["LIVE", "Music, panels + local broadcasting"],
               ["MARKET", "Food, makers + visitor orientation"],
               ["YOUTH", "Possible paid practice + useful experience"],
@@ -130,6 +132,102 @@ export function PlacesPage() {
         </div>
       </section>
 
+      <section className="section land-story-section">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">Why this land matters now</p>
+            <h2>A once-in-a-generation chance to keep 10–12 Ballow Road working for community.</h2>
+          </div>
+          <p>
+            This is a public call to whoever makes the next decision: please do
+            not let a rare waterfront community place quietly become just
+            another short-term private development.
+          </p>
+        </div>
+
+        <div className="land-story-grid">
+          <article>
+            <span>WHAT THE PUBLIC RECORD SHOWS</span>
+            <h3>The land was offered for sale by tender.</h3>
+            <p>
+              The sales brochure opened a competitive tender on 12 January 2026
+              and closed it on 27 March. At that time it named the State of
+              Queensland as the registered owner, described the land as a former
+              mining-lease site and promoted possible tourism or visitor use,
+              subject to approval.
+            </p>
+          </article>
+          <article>
+            <span>WHAT THE COMMUNITY SAID</span>
+            <h3>People asked for the sale to stop and the decisions to be explained.</h3>
+            <p>
+              In December 2025, more than 80 Quandamooka Elders, community
+              members and supporters gathered against the proposed sale.
+              Indigenous reporting recorded calls for transparency, consent and
+              a future shaped with the community.
+            </p>
+          </article>
+          <article>
+            <span>WHAT IS STILL NOT CLEAR</span>
+            <h3>The listing is down, but the outcome is not public.</h3>
+            <p>
+              The public property listing now says off market. The sources
+              checked on 24 July 2026 do not clearly say whether a tender was
+              accepted, whether a sale settled or what happens next. The State,
+              agent, Council and local Chamber of Commerce may be able to put
+              the facts on the table.
+            </p>
+          </article>
+        </div>
+
+        <div className="generations-call">
+          <div>
+            <p className="eyebrow">The community case</p>
+            <h2>Choose a legacy, not just a land deal.</h2>
+          </div>
+          <div>
+            <p>
+              QUAMPI and the Quandamooka Festival already show Ballow Road as a
+              powerful cultural gathering place. The festival is officially
+              listed at neighbouring 14–18 Ballow Road. Local experience says
+              the wider 10–12 ground has also supported festival activity, and
+              that footprint should be confirmed with the organisers.
+            </p>
+            <p>
+              Imagine this land held for generations of culture, youth, health,
+              sport, outdoor cinema, training, local enterprise and community
+              wellbeing. Any future should be led through honest discussion with
+              Quandamooka people, the wider island community and whoever now
+              holds the legal decision.
+            </p>
+            <p>
+              Accommodation or another profit-first use may make money for one
+              owner. A community place could keep creating value for thousands
+              of people, year after year.
+            </p>
+          </div>
+        </div>
+
+        <div className="source-button-row">
+          <a
+            className="button button-dark"
+            href="https://brochures.ljhooker.com.au/brochure/commercial-dunwich-qld-land-development-10-12-ballow-road-btvyf2s.pdf?r=6795465"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read the 2026 tender brochure ↗
+          </a>
+          <a
+            className="button button-ghost"
+            href="https://nit.com.au/24-12-2025/21931/quandamooka-community-seek-answers-on-goompi-tourism-land-sale"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Read the Indigenous community report ↗
+          </a>
+        </div>
+      </section>
+
       <section className="section precinct-flow-section">
         <div className="section-heading split-heading">
           <div>
@@ -151,7 +249,7 @@ export function PlacesPage() {
           <article className="flow-place feature">
             <span>PROPOSED</span>
             <strong>10–12 Ballow</strong>
-            <p>Sport · screens · markets · gatherings</p>
+            <p>Festivals · sport · screens · markets · gatherings</p>
           </article>
           <div className="flow-line"><span>RESPECTFUL ADJACENCY</span></div>
           <article className="flow-place cultural">
@@ -182,18 +280,19 @@ export function PlacesPage() {
             route, budget, design or approval.
           </p>
         </div>
-        <div className="tunnel-diagram" aria-label="Conceptual dependency diagram">
-          <div className="surface-line">
-            <span>FERRY GATEWAY</span>
-            <span>BALLOW ROAD</span>
-            <span>PARK + RIDE?</span>
-          </div>
-          <div className="tunnel-bore"><i /><strong>FUTURE QUESTION ONLY</strong><i /></div>
-          <div className="spoil-path">
-            <span>Material testing</span>
-            <span>Environmental review</span>
-            <span>Community benefit?</span>
-          </div>
+        <div className="tunnel-diagram" aria-label="Plain-language summary of the future tunnel question">
+          <article>
+            <span>1 · THE PROBLEM</span>
+            <strong>Ferry traffic and parking put pressure on Gumpi.</strong>
+          </article>
+          <article>
+            <span>2 · THE IDEA TO TEST</span>
+            <strong>Could people park away from the terminal and travel through a tunnel?</strong>
+          </article>
+          <article>
+            <span>3 · BEFORE ANYTHING HAPPENS</span>
+            <strong>Protect Country, test the material and prove a real community benefit.</strong>
+          </article>
         </div>
         <div className="dependency-grid">
           {[

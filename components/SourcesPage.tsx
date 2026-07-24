@@ -67,11 +67,12 @@ export function SourcesPage() {
             </p>
           </article>
           <article>
-            <span>PROPERTY CONCEPT</span>
+            <span>10–12 BALLOW ROAD</span>
             <strong>9 + 10–12</strong>
             <p>
-              Ballow Road property availability, control and planning status are
-              not assumed here. Both site ideas require fresh due diligence.
+              A State of Queensland tender ran from 12 January to 27 March 2026.
+              The listing is now off market, but the public sources checked here
+              do not confirm the sale result or current decision-maker.
             </p>
           </article>
         </div>

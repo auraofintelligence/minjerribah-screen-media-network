@@ -82,6 +82,7 @@ export const fundingItems = [
     amount: 18000,
     stage: "Make",
     note: "Screening rights, program care, access support and first-night production.",
+    basis: "No quantities, prices or quotes were used. The placeholder loosely bundled screening rights, program care, access support and event production.",
   },
   {
     id: "training",
@@ -89,6 +90,7 @@ export const fundingItems = [
     amount: 24000,
     stage: "Train",
     note: "Small beginner cohorts, mentors, venue hire and learning materials.",
+    basis: "No course size, trainer rate, venue price or timetable was calculated. The placeholder loosely bundled mentors, a venue and learning materials.",
   },
   {
     id: "journalism-kit",
@@ -96,6 +98,7 @@ export const fundingItems = [
     amount: 16000,
     stage: "Publish",
     note: "Phones, audio, tripods, lights, storage and captioning workstations.",
+    basis: "No equipment list or shop prices were used. The placeholder loosely bundled recording, lighting, storage and captioning gear.",
   },
   {
     id: "noticeboards",
@@ -103,6 +106,7 @@ export const fundingItems = [
     amount: 22000,
     stage: "Distribute",
     note: "A few screens, the gear to run them, remote updates and easy-to-read information.",
+    basis: "No screen count, installation quote or service cost was used. The placeholder loosely bundled displays, players, installation and remote updates.",
   },
   {
     id: "led-cinema",
@@ -110,6 +114,7 @@ export const fundingItems = [
     amount: 95000,
     stage: "Screen",
     note: "Planning allowance for modular display, split-screen control, rigging and transport.",
+    basis: "No LED supplier, panel specification, freight price, rigging plan or installation quote was used. This was an unsupported round-number guess.",
   },
   {
     id: "broadcast",
@@ -117,6 +122,7 @@ export const fundingItems = [
     amount: 38000,
     stage: "Broadcast",
     note: "Cameras, switching, audio, comms, power, encoding and protective cases.",
+    basis: "No equipment schedule or supplier prices were used. The placeholder loosely bundled cameras, sound, switching, power, cases and streaming gear.",
   },
   {
     id: "kiosks",
@@ -124,6 +130,7 @@ export const fundingItems = [
     amount: 48000,
     stage: "Resilience",
     note: "More locations, cached content, high-contrast mode and backup-power options.",
+    basis: "No number of kiosks, installation price or power design was used. The placeholder loosely bundled extra locations, backup power and software work.",
   },
   {
     id: "traineeships",
@@ -131,6 +138,7 @@ export const fundingItems = [
     amount: 72000,
     stage: "Employ",
     note: "A planning allowance for supervised paid practice, not a promised wage program.",
+    basis: "No trainee count, award rate, hours, supervision load or on-costs were calculated. This was an unsupported round-number guess.",
   },
   {
     id: "mobile-studio",
@@ -138,6 +146,7 @@ export const fundingItems = [
     amount: 85000,
     stage: "Travel",
     note: "A flexible island-wide editing, recording and outside-broadcast base.",
+    basis: "No vehicle, trailer, fit-out, registration, insurance or equipment quotes were used. This was an unsupported round-number guess.",
   },
   {
     id: "permanent",
@@ -145,6 +154,7 @@ export const fundingItems = [
     amount: 180000,
     stage: "Anchor",
     note: "Concept allowance only; site, engineering, approvals and fit-out are separate.",
+    basis: "No site, design, engineering, approval, construction or fit-out scope was calculated. This was an unsupported round-number guess.",
   },
   {
     id: "operations",
@@ -152,6 +162,7 @@ export const fundingItems = [
     amount: 220000,
     stage: "Sustain",
     note: "Coordination, editorial review, training, maintenance and public reporting.",
+    basis: "No roles, wages, hours, insurance, rent or annual operating plan were calculated. This was an unsupported round-number guess.",
   },
 ] as const;
 
