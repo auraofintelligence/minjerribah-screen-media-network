@@ -13,9 +13,9 @@ export function JoinPage() {
           <p className="eyebrow">Culture · business · art · sport · community · curiosity</p>
           <h1>Have a look at the full pitch and tell us what you reckon.</h1>
           <p className="hero-lede">
-            Nothing has been agreed yet. You might love one part, question
-            another or have a much better idea. You choose whether your comments
-            can be shared or should stay private.
+            Love part of it? Think part of it is rubbish? Want to help make
+            something happen? Say it straight. This is where the whole community
+            pitch starts getting shaped by the community.
           </p>
           <div className="button-row">
             <a className="button button-primary" href={joinIssueUrl} target="_blank" rel="noreferrer">
@@ -46,9 +46,9 @@ export function JoinPage() {
             <h2>What part catches your interest?</h2>
           </div>
           <p>
-            These are just conversation starters. They are not jobs, volunteer
-            roles or promises. Any real work would need clear expectations and
-            fair terms.
+            Pick the lane that suits you or bring a better one. If people decide
+            to get moving, we can sort out who does what, what it costs and how
+            people get paid.
           </p>
         </div>
         <div className="join-grid">
@@ -76,7 +76,7 @@ export function JoinPage() {
         <div className="section-heading split-heading">
           <div>
             <p className="eyebrow">Who is on board?</p>
-            <h2>Right now, only the person making the pitch is on this board.</h2>
+            <h2>Right now, this board starts with the person making the pitch.</h2>
           </div>
           <p>
             Nobody else will be listed unless they clearly agree to their name,
@@ -97,12 +97,12 @@ export function JoinPage() {
           </article>
           <article className="open-seat">
             <span>OPEN SEAT 01</span>
-            <strong>Your name only with your yes</strong>
+            <strong>Your name with your say-so</strong>
             <p>Possible interest: culture, stories or checking the details.</p>
           </article>
           <article className="open-seat">
             <span>OPEN SEAT 02</span>
-            <strong>Your organisation only with approved wording</strong>
+            <strong>Your organisation with wording you are happy with</strong>
             <p>Possible interest: hosting, business, sport or training.</p>
           </article>
           <article className="open-seat">
@@ -114,25 +114,25 @@ export function JoinPage() {
         <div className="consent-note">
           <strong>Not listed does not mean not supportive.</strong>
           <p>
-            Some help should stay private. Some conversations are early. Some
+            Some help can stay private. Some conversations are early. Some
             people may contribute without wanting public credit. This board
-            only records the names people have agreed can be shown.
+            records names when people are happy to be shown.
           </p>
         </div>
       </section>
 
       <section className="section collaboration-steps">
         <div className="section-heading">
-          <p className="eyebrow">From an idea to being named publicly</p>
-          <h2>Ask first, agree clearly and check again before publishing.</h2>
+          <p className="eyebrow">How we get moving</p>
+          <h2>Say it. Find your people. Try it. Show everyone what happened.</h2>
         </div>
         <div className="collaboration-track">
           {[
-            ["1", "Offer", "Name the piece you can help with."],
-            ["2", "Talk it through", "Agree what it means, what it does not mean and how long it might take."],
-            ["3", "Try", "Only run a small trial if everyone involved agrees."],
-            ["4", "Review", "Check what happened and what should change."],
-            ["5", "Acknowledge", "Approve any public name, role or quote before it appears."],
+            ["1", "Have your say", "Tell us what you reckon and what you want to do."],
+            ["2", "Find your crew", "Bring together the people, skills, gear and place that would help."],
+            ["3", "Make a start", "Try one real, useful thing without waiting for the whole dream."],
+            ["4", "Show the work", "Tell the community what happened, what it cost and what we learnt."],
+            ["5", "Go again", "Keep what works, fix what does not and build the next piece."],
           ].map(([number, title, text]) => (
             <article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>
           ))}
@@ -142,11 +142,10 @@ export function JoinPage() {
       <section className="section join-form-cta">
         <div>
           <p className="eyebrow">Got a thought, question or offer?</p>
-          <h2>Send a simple note.</h2>
+          <h2>Tell us straight.</h2>
           <p>
-            The public form asks what you can offer, what you need, what may be
-            public and what must stay private. Do not place sensitive cultural,
-            personal, youth or commercial information in a public issue.
+            What do you reckon? What do you want to do? What would help you get
+            started? Put it on the table so other people can find it and join in.
           </p>
         </div>
         <a className="button button-dark" href={joinIssueUrl} target="_blank" rel="noreferrer">

@@ -1,70 +1,72 @@
-name: Offer one useful piece
-description: Put your hand up for a small, clearly bounded part of the collaboration.
-title: "[Collaboration] "
+name: Have your say or get involved
+description: Tell us what you reckon, what you want to do, or what you want changed.
+title: "[Community] "
 labels: ["collaboration"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for offering a piece. This issue will be public. Do not include sensitive cultural material, private contact details, youth information, health information, confidential business material or anything that needs a closed conversation.
+        **Speak plainly. A short note is fine.**
+
+        This page is public, so leave out phone numbers, private details and anything told to you in confidence.
 
   - type: dropdown
     id: lane
     attributes:
-      label: Where could your contribution land?
+      label: What are you here for?
       options:
-        - Story or film
-        - Media or journalism training
-        - Public screen or venue
-        - Equipment
-        - Business or sponsorship conversation
-        - Sport or event
-        - Source, accessibility or risk review
-        - Technology, logistics or governance
+        - I have an idea
+        - I want to help
+        - I want to make a film or tell a story
+        - I want to help with the festival or Film Club
+        - I want to help with Sandy Sports
+        - I can teach or train people
+        - I have a venue, screen, gear or practical resource
+        - My business or organisation may be interested
+        - I have a question or concern
         - Something else
     validations:
       required: true
 
   - type: textarea
-    id: offer
+    id: say
     attributes:
-      label: What is the one useful piece you can offer?
-      description: Keep it short and practical.
-      placeholder: I can help with...
+      label: What do you reckon?
+      description: Say what you like, what you would change, or what you think should happen.
+      placeholder: Here is what I reckon...
     validations:
       required: true
 
   - type: textarea
-    id: need
+    id: contribution
     attributes:
-      label: What would you need for a safe, useful first step?
-      placeholder: A person, a place, equipment, a permission, a budget, a clearer question...
+      label: What would you like to do?
+      description: Tell us the part you want to make, organise, teach, host, lend, fund or help with.
+      placeholder: I would like to...
 
   - type: textarea
-    id: boundary
+    id: want
     attributes:
-      label: What boundary should stay visible?
-      description: Say what you are not offering or what must be checked first.
-    validations:
-      required: true
+      label: What would you like from the project?
+      description: People, gear, a place, money, advice, introductions, permission or something else.
+      placeholder: I would like help with...
 
   - type: dropdown
-    id: acknowledgement
+    id: next
     attributes:
-      label: May the project publicly acknowledge your interest?
+      label: What should happen next?
       options:
-        - No — keep my contribution unlisted
-        - Maybe — ask me about exact wording later
-        - Yes — but only after I approve the exact wording
+        - Reply to me here
+        - Invite me to the next community yarn
+        - Help me connect with the right people
+        - Put this idea on the public board
+        - Just take this as feedback for now
     validations:
       required: true
 
-  - type: checkboxes
-    id: public
+  - type: input
+    id: name
     attributes:
-      label: Public issue check
-      options:
-        - label: I have not included private, sensitive, culturally restricted or confidential information.
-          required: true
-        - label: I understand this form is an invitation to talk, not a job, contract, endorsement, partnership or approval.
-          required: true
+      label: What name should we use?
+      description: Optional. Your GitHub name is already attached to this public post.
+      placeholder: Your name, group, business or leave blank
