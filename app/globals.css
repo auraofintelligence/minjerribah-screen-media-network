@@ -1938,6 +1938,19 @@ main {
   background: var(--signal);
 }
 
+.precinct-path span {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 0;
+  padding: 0.35rem 0.5rem;
+  color: var(--paper);
+  background: rgba(7, 8, 10, 0.82);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
 .place-intro {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;

@@ -13,7 +13,8 @@ export function PlacesPage() {
             This pitch asks whether 9 Ballow Road could become a Ready S.E.T.
             Co-op community base, with S.E.T. standing for Sustainable Employment
             &amp; Training. It also asks whether 10–12 could host sport, outdoor
-            screens and gatherings. No property access, lease or approval is assumed.
+            screens and gatherings. These are separate sites several hundred
+            metres apart along Ballow Road.
           </p>
         </div>
         <div className="precinct-strip" aria-hidden="true">
@@ -21,7 +22,10 @@ export function PlacesPage() {
             <span>9</span>
             <strong>READY<br />S.E.T.<br />CO-OP</strong>
           </div>
-          <div className="precinct-path"><i /><i /><i /><i /></div>
+          <div className="precinct-path">
+            <span>SEPARATE SITES · SEVERAL HUNDRED METRES APART</span>
+            <i /><i /><i /><i />
+          </div>
           <div className="precinct-building building-twelve">
             <span>10–12</span>
             <strong>SAND<br />SCREEN</strong>
@@ -231,12 +235,13 @@ export function PlacesPage() {
       <section className="section precinct-flow-section">
         <div className="section-heading split-heading">
           <div>
-            <p className="eyebrow">Neighbours, not a takeover</p>
+            <p className="eyebrow">Separate sites along Ballow Road</p>
             <h2>Every place keeps its own role and makes its own decisions.</h2>
           </div>
           <p>
-            The lines below only show how the ideas might sit near each other.
-            They do not mean support, a lease, a partnership or planning approval.
+            The diagram connects separate roles across the wider Ballow Road
+            area. Number 9 and 10–12 are not adjoining blocks. They are several
+            hundred metres apart.
           </p>
         </div>
         <div className="precinct-flow">

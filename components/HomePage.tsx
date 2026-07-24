@@ -127,8 +127,9 @@ export function HomePage() {
           </div>
           <div className="ready-set-location">
             <p>
-              <strong>Proposed home:</strong> 9 Ballow Road, beside the wider
-              10–12 Ballow Road festival, sport and screen idea.
+              <strong>Proposed home:</strong> 9 Ballow Road. The separate
+              10–12 Ballow Road festival, sport and screen site is several
+              hundred metres away along Ballow Road.
             </p>
             <div className="button-row">
               <a className="button button-dark" href={sitePath("/places")}>See the Ballow Road pitch</a>
