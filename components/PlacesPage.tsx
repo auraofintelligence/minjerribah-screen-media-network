@@ -272,13 +272,13 @@ export function PlacesPage() {
           <span>Move slowly here</span>
         </div>
         <div className="horizon-copy">
-          <p className="eyebrow">A much bigger transport question</p>
-          <h2>Could a future underground transport loop link both Gumpi ferry terminals, connect several park-and-ride sites and turn carefully tested spoil into useful material?</h2>
+          <p className="eyebrow">The first layer of a much bigger underground vision</p>
+          <h2>The Gumpi proposal is a tunnel loop linking both ferry terminals and several park-and-ride sites.</h2>
           <p>
-            This is a town-wide loop idea, not one tunnel running to one car
-            park. One possible parking lot is opposite 10–12 Ballow Road, with
-            other park-and-ride locations around the loop. The route, stops,
-            design, funding and approvals are open questions.
+            The loop runs around the town, with one possible parking lot opposite
+            10–12 Ballow Road and others around the route. Direct tunnels between
+            island towns are another proposed layer. The eventual subterranean
+            city vision lives in Grain by Grain and Civilisation of Sand.
           </p>
         </div>
         <div className="tunnel-diagram" aria-label="Plain-language summary of the future tunnel question">
@@ -306,6 +306,18 @@ export function PlacesPage() {
             "Safety + emergency planning",
             "Transparent public alternatives",
           ].map((item) => <span key={item}>{item}</span>)}
+        </div>
+        <div className="horizon-bridges">
+          <a href="https://auraofintelligence.github.io/grain-by-grain/" target="_blank" rel="noreferrer">
+            <span>LONGER VIEW</span>
+            <strong>Grain by Grain</strong>
+            <p>Explore the staged path from material reuse and local infrastructure towards larger underground systems.</p>
+          </a>
+          <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noreferrer">
+            <span>CINEMATIC UNIVERSE + FUTURE CITY</span>
+            <strong>Civilisation of Sand</strong>
+            <p>Explore the shared story architecture for films, games, music, events, team-building, skills, jobs and the wider subterranean-city vision.</p>
+          </a>
         </div>
       </section>
 

@@ -240,6 +240,20 @@ export const sourceProjects: Array<{
     status: "horizon",
   },
   {
+    title: "Grain by Grain",
+    description:
+      "A future-ideas website connecting material reuse, community infrastructure and a staged path towards larger underground systems.",
+    url: "https://auraofintelligence.github.io/grain-by-grain/",
+    status: "horizon",
+  },
+  {
+    title: "Civilisation of Sand",
+    description:
+      "A cinematic-universe architecture for films, games, music, events, team-building, practical skills, paid creative work and a future subterranean civilisation.",
+    url: "https://auraofintelligence.github.io/civilisation-of-sand/",
+    status: "horizon",
+  },
+  {
     title: "TMR: Dunwich (Gumpi) Ferry Terminal Upgrade",
     description:
       "The official Queensland Government project page. It is the authority for the upgrade’s current status, scope and timing.",

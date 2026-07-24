@@ -122,6 +122,53 @@ export function NetworkPage() {
         </div>
       </section>
 
+      <section className="section cinematic-universe-section">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">Civilisation of Sand cinematic universe</p>
+            <h2>Build the world. Build the crew. Build skills, jobs, fun and income.</h2>
+          </div>
+          <p>
+            Civilisation of Sand is a shared story architecture for films,
+            series, games, music, live events and future-world experiments. Each
+            production can teach real skills, bring new teams together and open
+            pathways into paid creative and technical work.
+          </p>
+        </div>
+        <div className="cinematic-jobs-grid">
+          {[
+            ["STORY", "Writers, researchers, world-builders, cultural advisers and story editors."],
+            ["SCREEN", "Actors, directors, camera crews, sound, lighting, production and editing."],
+            ["WORLDS", "Artists, costume makers, set builders, props, models, animation and visual effects."],
+            ["TECH", "Game builders, interactive media, virtual production, coding, AI tools and robotics."],
+            ["LIVE", "Festival crews, performers, installations, tours, workshops and audience experiences."],
+            ["BUSINESS", "Production services, food, transport, accommodation, licensing, merchandise and local suppliers."],
+          ].map(([title, text], index) => (
+            <article key={title}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </article>
+          ))}
+        </div>
+        <div className="cinematic-universe-cta">
+          <p>
+            One cinematic universe can support many stories, many crews and many
+            ways to earn. The Film Club can grow skills, the festival can show
+            the work, and Ready S.E.T. Co-op can help turn creative practice into
+            lasting employment and local enterprise.
+          </p>
+          <div className="button-row">
+            <a className="button button-primary" href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noreferrer">
+              Enter Civilisation of Sand
+            </a>
+            <a className="button button-ghost" href="https://auraofintelligence.github.io/film-club-documentary-builders/" target="_blank" rel="noreferrer">
+              Open the Film Club builders
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="section screens-section">
         <div className="section-heading split-heading">
           <div>
