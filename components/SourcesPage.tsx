@@ -58,12 +58,13 @@ export function SourcesPage() {
             </p>
           </article>
           <article>
-            <span>CONFIRMED EVENT DATES</span>
-            <strong>29–30 AUG</strong>
+            <span>LATEST FESTIVAL DATES</span>
+            <strong>12–13 SEP</strong>
             <p>
-              Redland City Council lists the Quandamooka Festival for 29–30
-              August 2026. Festival programming, venue and authority belong to
-              its organisers.
+              The Quandamooka Festival Facebook page launched the 2026 event on
+              22 July with dates of 12–13 September. The festival is now calling
+              for stallholders and artists. Older Council pages still show the
+              previous August dates.
             </p>
           </article>
           <article>

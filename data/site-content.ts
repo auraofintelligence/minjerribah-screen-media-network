@@ -243,9 +243,23 @@ export const sourceProjects: Array<{
     status: "official",
   },
   {
+    title: "Quandamooka Festival: official Facebook page",
+    description:
+      "The festival’s own page launched the 2026 event on 22 July, lists 12–13 September and is calling for stallholders and artists.",
+    url: "https://www.facebook.com/quandamookafestival",
+    status: "official",
+  },
+  {
+    title: "SeaLink: Quandamooka Festival event listing",
+    description:
+      "A current event listing confirming 12–13 September 2026 at QUAMPI Arts & Culture Centre. Older government listings still show August dates.",
+    url: "https://www.sealink.com.au/north-stradbroke-island/events/quandamooka-festival-2/",
+    status: "active",
+  },
+  {
     title: "Redland City Council: significant events",
     description:
-      "A current public listing that confirms the 2026 Quandamooka Festival dates. Festival authority remains with its organisers.",
+      "This public Council calendar still shows 29–30 August 2026, so its festival dates appear to be older than the organiser’s 22 July launch.",
     url: "https://www.redland.qld.gov.au/Quandamooka-Country/Calendar-of-significant-events",
     status: "official",
   },
