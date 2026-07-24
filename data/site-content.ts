@@ -62,6 +62,10 @@ export const coverageBeats = [
   "Community groups",
   "Emergency information",
   "Visitor guidance",
+  "Grants",
+  "Tenders",
+  "Jobs",
+  "Fun facts",
 ] as const;
 
 export const noticeboardLocations = [

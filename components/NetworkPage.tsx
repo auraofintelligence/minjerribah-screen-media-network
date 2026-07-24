@@ -75,9 +75,9 @@ export function NetworkPage() {
           ))}
         </div>
         <p className="section-note">
-          Cultural stories, language, identity, young people and community
-          history need permission from the right people. A media team cannot
-          make that call on its own.
+          If the Co-op forms, its members and elected leadership would set the
+          publishing rules together, within the laws and Acts that apply. This
+          website and Luke do not get to decide those rules in advance.
         </p>
       </section>
 
