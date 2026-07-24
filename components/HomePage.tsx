@@ -103,7 +103,7 @@ export function HomePage() {
         <div className="ready-set-explainer">
           <div className="ready-set-intro">
             <StatusTag status="proposed">Proposed for 9 Ballow Road, Gumpi / Dunwich</StatusTag>
-            <h3>Ready S.E.T. Co-op is a community base for Sustainable Employment &amp; Training.</h3>
+            <h3>Ready S.E.T. Co-op is proposed as a community base for Sustainable Employment &amp; Training.</h3>
             <p>
               The idea is a practical front door where local people can learn,
               teach, make media, support events, test business ideas, find paid
