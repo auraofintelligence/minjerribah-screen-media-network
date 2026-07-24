@@ -99,6 +99,48 @@ export function HomePage() {
             pitch, talk about it and decide what is worth taking further.
           </p>
         </div>
+        <div className="ready-set-explainer">
+          <div className="ready-set-intro">
+            <StatusTag status="proposed">Proposed for 9 Ballow Road, Gumpi / Dunwich</StatusTag>
+            <h3>Ready S.E.T. Co-op is a community base for Sustainable Employment &amp; Training.</h3>
+            <p>
+              The idea is a practical front door where local people can learn,
+              teach, make media, support events, test business ideas, find paid
+              pathways and turn good community ideas into real work.
+            </p>
+          </div>
+          <div className="ready-set-meaning">
+            <article>
+              <span>READY</span>
+              <p>Bring the people, ideas, skills and places together.</p>
+            </article>
+            <article>
+              <span>S.E.T.</span>
+              <p><strong>Sustainable Employment &amp; Training.</strong> Build useful skills and work that can last.</p>
+            </article>
+            <article>
+              <span>CO-OP</span>
+              <p>Work together, share the load and keep the benefit flowing through the community. Ready, S.E.T., Co-op!</p>
+            </article>
+          </div>
+          <div className="ready-set-location">
+            <p>
+              <strong>Proposed home:</strong> 9 Ballow Road, beside the wider
+              10–12 Ballow Road festival, sport and screen idea.
+            </p>
+            <div className="button-row">
+              <a className="button button-dark" href={sitePath("/places")}>See the Ballow Road pitch</a>
+              <a
+                className="button button-outline-dark"
+                href="https://auraofintelligence.github.io/ready-set-co-op-trust-hub/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open the detailed Co-op plan
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="petal-stage">
           <div className="petal-core">
             <strong>READY</strong>
