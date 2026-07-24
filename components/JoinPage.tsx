@@ -1,8 +1,8 @@
 import { sitePath } from "../lib/site-paths";
 import { SiteShell, StatusTag } from "./SiteShell";
 
-const joinIssueUrl =
-  "https://github.com/auraofintelligence/minjerribah-screen-media-network/issues/new?template=collaborate.yml";
+const contactFormUrl =
+  "https://auraofintelligence.github.io/strange-but-true/contact.html";
 
 export function JoinPage() {
   return (
@@ -18,8 +18,8 @@ export function JoinPage() {
             pitch starts getting shaped by the community.
           </p>
           <div className="button-row">
-            <a className="button button-primary" href={joinIssueUrl} target="_blank" rel="noreferrer">
-              Share your thoughts ↗
+            <a className="button button-primary" href={contactFormUrl} target="_blank" rel="noreferrer">
+              Send Luke a message ↗
             </a>
             <a className="button button-ghost" href="#who-is-on-board">
               See the public board
@@ -148,8 +148,8 @@ export function JoinPage() {
             started? Put it on the table so other people can find it and join in.
           </p>
         </div>
-        <a className="button button-dark" href={joinIssueUrl} target="_blank" rel="noreferrer">
-          Share your thoughts on GitHub ↗
+        <a className="button button-dark" href={contactFormUrl} target="_blank" rel="noreferrer">
+          Open the contact form ↗
         </a>
       </section>
 

@@ -152,13 +152,12 @@ export function PlacesPage() {
         <div className="land-story-grid">
           <article>
             <span>WHAT THE PUBLIC RECORD SHOWS</span>
-            <h3>The land was offered for sale by tender.</h3>
+            <h3>The land was advertised through a commercial real estate listing.</h3>
             <p>
-              The sales brochure opened a competitive tender on 12 January 2026
-              and closed it on 27 March. At that time it named the State of
-              Queensland as the registered owner, described the land as a former
-              mining-lease site and promoted possible tourism or visitor use,
-              subject to approval.
+              The property was advertised for sale from 12 January to 27 March
+              2026. The brochure named the State of Queensland as the registered
+              owner, described the land as a former mining-lease site and
+              promoted possible tourism or visitor use, subject to approval.
             </p>
           </article>
           <article>
@@ -176,10 +175,10 @@ export function PlacesPage() {
             <h3>The listing is down, but the outcome is not public.</h3>
             <p>
               The public property listing now says off market. The sources
-              checked on 24 July 2026 do not clearly say whether a tender was
-              accepted, whether a sale settled or what happens next. The State,
-              agent, Council and local Chamber of Commerce may be able to put
-              the facts on the table.
+              checked on 24 July 2026 do not clearly say whether the property
+              sold, was withdrawn or what happens next. The State, agent,
+              Council and local Chamber of Commerce may be able to put the
+              facts on the table.
             </p>
           </article>
         </div>
@@ -219,7 +218,7 @@ export function PlacesPage() {
             target="_blank"
             rel="noreferrer"
           >
-            Read the 2026 tender brochure ↗
+            Read the 2026 property brochure ↗
           </a>
           <a
             className="button button-ghost"
