@@ -144,10 +144,10 @@ export function HomePage() {
           <a className="portal-card" href={sitePath("/funding")}>
             <span className="card-number">03</span>
             <div>
-              <p className="eyebrow">Rough example costs</p>
-              <h3>See what different amounts might pay for.</h3>
+              <p className="eyebrow">Unverified placeholders</p>
+              <h3>Challenge the guesses and build a proper budget.</h3>
             </div>
-            <strong>Move the sliders →</strong>
+            <strong>Check the working →</strong>
           </a>
           <a className="portal-card portal-colour" href={sitePath("/join")}>
             <span className="card-number">04</span>
@@ -165,6 +165,64 @@ export function HomePage() {
             </div>
             <strong>Check the source trail →</strong>
           </a>
+        </div>
+      </section>
+
+      <section className="section club-pathways-section">
+        <div className="section-heading split-heading">
+          <div>
+            <p className="eyebrow">Two practical community pathways</p>
+            <h2>A sports club path and a film club path.</h2>
+          </div>
+          <p>
+            These are public planning tools people can explore now. They are not
+            operating clubs, confirmed programs or proof that anyone has agreed
+            to run them.
+          </p>
+        </div>
+        <div className="club-pathways-grid">
+          <article className="club-pathway sport-pathway">
+            <span>SPORT</span>
+            <h3>Sandy Sports community club builder</h3>
+            <p>
+              Explore how a possible community-run sand sports club could shape
+              its purpose, activities and next practical steps.
+            </p>
+            <a
+              className="button button-dark"
+              href="https://auraofintelligence.github.io/community-club-builder-sandy-sports/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open Sandy Sports
+            </a>
+          </article>
+          <article className="club-pathway film-pathway">
+            <span>FILM + FESTIVAL</span>
+            <h3>Film Club and Quandamooka Film Festival tools</h3>
+            <p>
+              Start a story, plan a screening, learn the craft, prepare festival
+              work and build a film community one useful session at a time.
+            </p>
+            <div className="button-row">
+              <a
+                className="button button-primary"
+                href="https://auraofintelligence.github.io/quandamooka-film-festival/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open festival doorway
+              </a>
+              <a
+                className="button button-ghost"
+                href="https://auraofintelligence.github.io/film-club-documentary-builders/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Film Club builders
+              </a>
+            </div>
+          </article>
         </div>
       </section>
 

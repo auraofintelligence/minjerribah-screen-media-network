@@ -53,10 +53,11 @@ test("ships a separate real multi-page GitHub Pages build", async () => {
 });
 
 test("removes starter-only assets and keeps reduced-motion support", async () => {
-  const [css, packageJson, layout] = await Promise.all([
+  const [css, packageJson, layout, favicon] = await Promise.all([
     readFile(new URL("../app/globals.css", import.meta.url), "utf8"),
     readFile(new URL("../package.json", import.meta.url), "utf8"),
     readFile(new URL("../app/layout.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../public/favicon.svg", import.meta.url), "utf8"),
   ]);
 
   assert.match(css, /prefers-reduced-motion:\s*reduce/);
@@ -66,5 +67,6 @@ test("removes starter-only assets and keeps reduced-motion support", async () =>
   await assert.rejects(
     access(new URL("../app/_sites-preview/SkeletonPreview.tsx", import.meta.url)),
   );
-  await assert.rejects(access(new URL("../public/favicon.svg", import.meta.url)));
+  assert.match(favicon, /#d9ff39/);
+  assert.match(favicon, /#33e6d2/);
 });

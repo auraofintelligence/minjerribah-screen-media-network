@@ -23,6 +23,9 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description,
     applicationName: title,
+    icons: {
+      icon: "/favicon.svg",
+    },
     keywords: [
       "Minjerribah",
       "Quandamooka Film Festival",

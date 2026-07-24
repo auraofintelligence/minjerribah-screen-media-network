@@ -936,6 +936,62 @@ main {
   color: var(--ink);
 }
 
+.club-pathways-section {
+  color: var(--paper);
+  background: #101216;
+}
+
+.club-pathways-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.club-pathway {
+  min-height: 480px;
+  padding: clamp(1.5rem, 4vw, 4rem);
+}
+
+.club-pathway + .club-pathway {
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.club-pathway > span {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.club-pathway h3 {
+  max-width: 760px;
+  margin: 4rem 0 1.4rem;
+  font-family: var(--display);
+  font-size: clamp(2.3rem, 4.7vw, 5.2rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.club-pathway p {
+  max-width: 660px;
+  font-size: 1.1rem;
+}
+
+.sport-pathway {
+  color: var(--ink);
+  background: var(--acid);
+}
+
+.film-pathway {
+  background:
+    radial-gradient(circle at 90% 10%, rgba(255, 77, 35, 0.35), transparent 35%),
+    #101216;
+}
+
+.film-pathway .button-ghost {
+  border-color: rgba(255, 255, 255, 0.65);
+}
+
 .first-season-section {
   color: var(--ink);
   background: var(--acid);
@@ -3336,6 +3392,15 @@ main {
 
   .hero-caption {
     display: none;
+  }
+
+  .club-pathways-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .club-pathway + .club-pathway {
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    border-left: 0;
   }
 
   .proper-working {
