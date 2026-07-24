@@ -41,6 +41,11 @@ test("server-renders every public route with honest project language", async () 
     const html = await response.text();
     assert.match(html, new RegExp(expected, "i"), path);
     assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
+    if (path === "/") {
+      assert.match(html, /Sustainable Employment &amp; Training/i);
+      assert.match(html, /year-round local media and journalism, with practical training/i);
+      assert.match(html, /digital noticeboards for everyday use/i);
+    }
   }
 });
 
