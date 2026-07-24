@@ -43,8 +43,8 @@ test("server-renders every public route with honest project language", async () 
     assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
     if (path === "/") {
       assert.match(html, /Sustainable Employment &amp; Training/i);
-      assert.match(html, /year-round local media and journalism, with practical training/i);
-      assert.match(html, /digital noticeboards for everyday use/i);
+      assert.match(html, /Have your say, choose the part you care about/i);
+      assert.match(html, /community news, everyday noticeboards/i);
     }
   }
 });
