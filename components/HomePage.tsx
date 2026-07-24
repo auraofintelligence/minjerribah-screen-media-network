@@ -99,8 +99,8 @@ export function HomePage() {
         <div className="petal-stage">
           <div className="petal-core">
             <strong>READY</strong>
-            <span>SET</span>
-            <small>CO-OP?</small>
+            <span>S.E.T.</span>
+            <small>CO-OP</small>
           </div>
           <div className="petal-grid">
             {systemPetals.map((petal) => (
@@ -209,7 +209,8 @@ export function HomePage() {
         <div className="big-ask">
           <p className="eyebrow">The main ask</p>
           <blockquote>
-            Collaborate to build the Quandamooka Film Festival toolkit, a
+            Help shape Ready S.E.T. Co-op, meaning Sustainable Employment &amp;
+            Training, alongside the Quandamooka Film Festival toolkit, a
             year-round local media and journalism training, digital noticeboards
             that could carry checked emergency updates, shared screens, and places
             where culture, business, sport and community can grow together.

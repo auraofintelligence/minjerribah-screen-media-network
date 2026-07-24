@@ -176,7 +176,7 @@ export const sourceProjects: Array<{
     status: "active",
   },
   {
-    title: "Ready S.E.T. Hyperlocal Media",
+    title: "Ready S.E.T. Co-op Hyperlocal Media",
     description:
       "A planning website about teaching media skills, recording useful local work and sharing local stories.",
     url: "https://auraofintelligence.github.io/ready-set-co-op-hyperlocal-media/",

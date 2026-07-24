@@ -11,14 +11,15 @@ export function PlacesPage() {
           <h1>Could Ballow Road become a bigger community meeting place?</h1>
           <p className="hero-lede">
             This pitch asks whether 9 Ballow Road could become a Ready S.E.T.
-            community base and whether 10–12 could host sport, outdoor screens
-            and gatherings. No property access, lease or approval is assumed.
+            Co-op community base, with S.E.T. standing for Sustainable Employment
+            &amp; Training. It also asks whether 10–12 could host sport, outdoor
+            screens and gatherings. No property access, lease or approval is assumed.
           </p>
         </div>
         <div className="precinct-strip" aria-hidden="true">
           <div className="precinct-building building-nine">
             <span>9</span>
-            <strong>READY<br />SET</strong>
+            <strong>READY<br />S.E.T.<br />CO-OP</strong>
           </div>
           <div className="precinct-path"><i /><i /><i /><i /></div>
           <div className="precinct-building building-twelve">
@@ -49,7 +50,7 @@ export function PlacesPage() {
         <div className="place-copy">
           <StatusTag status="proposed">One possible home</StatusTag>
           <p className="eyebrow">9 Ballow Road</p>
-          <h2>Could 9 Ballow Road become a front door for Ready S.E.T.?</h2>
+          <h2>Could 9 Ballow Road become a front door for Ready S.E.T. Co-op?</h2>
           <p className="feature-lede">
             It might be a place for media training, everyday AI skills, editing,
             small workshops, shared gear, project meetings and local businesses
