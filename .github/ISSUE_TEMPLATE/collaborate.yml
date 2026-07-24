@@ -1,0 +1,70 @@
+name: Offer one useful piece
+description: Put your hand up for a small, clearly bounded part of the collaboration.
+title: "[Collaboration] "
+labels: ["collaboration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering a piece. This issue will be public. Do not include sensitive cultural material, private contact details, youth information, health information, confidential business material or anything that needs a closed conversation.
+
+  - type: dropdown
+    id: lane
+    attributes:
+      label: Where could your contribution land?
+      options:
+        - Story or film
+        - Media or journalism training
+        - Public screen or venue
+        - Equipment
+        - Business or sponsorship conversation
+        - Sport or event
+        - Source, accessibility or risk review
+        - Technology, logistics or governance
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: offer
+    attributes:
+      label: What is the one useful piece you can offer?
+      description: Keep it short and practical.
+      placeholder: I can help with...
+    validations:
+      required: true
+
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you need for a safe, useful first step?
+      placeholder: A person, a place, equipment, a permission, a budget, a clearer question...
+
+  - type: textarea
+    id: boundary
+    attributes:
+      label: What boundary should stay visible?
+      description: Say what you are not offering or what must be checked first.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: acknowledgement
+    attributes:
+      label: May the project publicly acknowledge your interest?
+      options:
+        - No — keep my contribution unlisted
+        - Maybe — ask me about exact wording later
+        - Yes — but only after I approve the exact wording
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Public issue check
+      options:
+        - label: I have not included private, sensitive, culturally restricted or confidential information.
+          required: true
+        - label: I understand this form is an invitation to talk, not a job, contract, endorsement, partnership or approval.
+          required: true
